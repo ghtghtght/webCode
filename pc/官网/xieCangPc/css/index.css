@@ -1,0 +1,234 @@
+body{
+    background-color: #eee;
+    padding: 50px 0;
+}
+.navbar{
+    background-image: url(../image/nav-bg.png);  
+    background-repeat: repeat-x;  
+}
+.navbar-brand{
+    padding: 0 5px;
+}
+.navbar-nav{
+    margin-left: 60px;
+}
+.navbar-nav>li>a{
+    height: 40px;
+    margin: 7px 5px 0 5px;
+    padding: 10px 10px 0 10px;
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+    background: none;
+    border-bottom: 3px solid #36f;
+    outline: none;
+}
+.search input{
+    height: 28px;
+    width: 180px;
+    border-radius: 14px;
+    border: solid 1px lightgray;
+    padding: 0 10px;
+    margin-top: 3px;
+}
+.banner{
+    height: 480px;
+    background-image: url(../image/banner.png);
+    background-position: 50% 50%;
+}
+#sections{
+    margin-top: -28px;
+    font-size: 1.2rem;
+}
+#sections>div>div{
+    border: 1px solid lightgray;
+    border-top: none;
+    padding: 8px 6px 6px 6px;
+}
+#news, #research, #service{
+    height: 210px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+#sections h2{
+    font-size: 1.3rem;
+    background-image: url(../image/s-bg1.png);
+    background-size: 28px auto;
+    color: white;
+    height: 28px;
+    padding: 6px 0 0 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin: 0;
+}
+#sections>div:nth-child(2) h2{
+    background-image: url(../image/s-bg2.png);
+}
+article h3{
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#news img{
+    width: 90px;
+    margin-bottom: 5px;
+}
+#news section{
+    float: right;
+    width: calc(100% - 102px);
+}
+#news p{
+    margin: 5px 0;
+    color: #444;
+}
+#sections p.more{
+    /*color: #44c;*/
+    text-align: right;
+    font-size: 1.1rem;
+}
+.clear{
+    clear: both;
+}
+.dotted-bottom{
+    border-bottom: 1px dotted gray;
+}
+#news dl{
+    font-size: 1.2rem;
+    padding: 6px 0 3px 0;
+}
+#news dt{
+    font-weight: normal;
+    font-size: 1.2rem;
+    float: left;
+    line-height: 2.6rem;
+}
+#news dd{
+    float: right;
+    line-height: 2.3rem;
+}
+#sections #research{
+    padding: 0px 10px;
+}
+#research p{
+    margin: 5px 0;
+}
+#research article{
+    padding-top: 8px;
+}
+#service header{
+    width: 100%;
+    height: 79px;
+    background-image: url(../image/service.png);
+    background-position: 50% 50%;
+    margin-bottom: 3px;
+}
+#service article{
+    text-align: center;
+    padding: 3px;
+}
+#service a{
+    display: inline-block;
+    width: 46%;
+    height: 26px;
+    background-color: #ddd;
+    padding: 5px 15px 5px 30px;
+    margin: 6px 0;
+    font-size: 1.3rem;
+    color: #444;
+    text-align: left;
+}
+#service section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#service header{
+    margin: 0;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 46px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+}
+.footer span{
+    display: block;
+    padding: 12px 0 0 5px;
+    color: #999;
+}
+.footer nav{
+    text-align: right;
+    padding: 12px 0 0 0;
+}
+.footer a{
+    color: #999;
+    margin-left: 20px;
+}
+.footer i{
+    font-style: normal;
+}
+@media (max-width:1500px){
+    .banner{
+        height: 450px;
+        background-position: 33% 50%;
+        background-size: auto 120%;
+    }
+}
+@media (max-width:992px){
+    .banner{
+        height: 350px;
+    }
+    #navbar-collapse{
+        background-image: none;
+        background-color: #f8f8f8;
+        float: initial;
+    }
+    #navbar-collapse ul{
+        margin: 8px 0 0 0;
+    }
+    #navbar-collapse a{
+        border: none;
+        margin: 0;
+    }
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > li > a:hover{
+        background-color: #e7e7ef;
+    }
+    .navbar-form{
+        border-bottom: none;
+    }
+    #sections{
+        margin-top: 10px;
+    }
+    body{
+        padding-bottom: 0;
+    }
+    .footer{
+        position: static;
+        height: auto;
+        text-align: center;
+        background: none;
+        border: none;
+    }
+    .footer nav{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+ @media (max-width:480px){
+    .banner{
+        height: 200px;
+    }
+    .footer i{
+        display: block;
+    }
+    .footer nav i{
+        padding: 5px 0;
+    }
+}

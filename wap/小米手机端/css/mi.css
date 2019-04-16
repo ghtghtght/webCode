@@ -1,0 +1,155 @@
+.hm_pic{
+    height: 44vw;
+    text-align: center;
+    border-bottom: 1px solid #f6f6f6;
+}
+.hm_pic img{
+    height: 43vw;
+    width: 44vw;
+}
+.hm_pro{
+    padding-top: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    height: 33.33vw;
+}
+.hm_pro p{
+    height: 8vw;
+}
+.hm_pro p:nth-child(2){
+    color: #ff5722;
+    line-height: 12vw;
+}
+.hm_pro i{
+    font-size: 3vw;
+    color: gray;
+}
+.hm ul{
+    color: #999;
+    height: 12vw;
+    text-align: center;
+}
+.hm ul li{
+    line-height: 10vw;
+    width: 25vw;
+    height: 10vw;
+    border: 1px solid #ff5722;
+}
+.hm .hm1 li{
+     float: left;
+     margin-left: 5vw;
+}
+.hm .hm2 li{
+     margin-left: 5vw;
+     padding-top: 8px;
+}
+.hm .hm_ban img{
+     height: 155vw;
+     width: 100vw;
+} 
+.footer ol{
+    list-style: none;
+    position: fixed;
+    height: 16vw;
+    border-top: 1px solid #ccc;
+}
+.footer ol li{
+    float: left;
+    height: 16vw;
+    line-height: 16vw;
+}
+.footer ol li a{
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    height: 14vw;
+    background-size: 100%;
+}
+.footer ol li:nth-child(1){
+    width: 14vw;
+}
+.footer ol li:nth-child(1) >a{
+    width: 8vw;
+    height: 8vw; 
+    background-image: url(../images/spr1.png);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+}
+.footer ol li:nth-child(2) a{
+    text-align: center;
+    color: #fff;
+    width: 72vw;
+    background-color: #ff5722;
+    border-radius: 5px;
+    margin-top: -2vw;
+}
+.footer ol li:nth-child(3) a{
+    width: 8vw;
+    height: 8vw;
+    background-image: url(../images/spr1.png);
+    background-repeat: no-repeat;
+    background-position: 0% 42%;
+}
+@media (min-width:730px){
+.footer ol{
+    height: 100px;
+}
+.footer ol li{
+    /*height: 112px;*/
+    line-height: 100px;
+}
+.footer ol li a{
+    height: 90px;
+    /*background-size: 55px 55px;*/
+}
+.footer ol li:nth-child(1){
+    width: 105px;
+}
+.footer ol li:nth-child(1) >a{
+    width: 105px;
+    height: 75px; 
+}
+.footer ol li:nth-child(2) a{
+    width: 72vw;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+    margin-top: -1vw;
+}
+.footer ol li:nth-child(3) a{
+    width: 105px;
+    height: 75px;
+} 
+.hm_pic{
+    height: 360px;
+}
+.hm_pic img{
+    height: 355px;
+    width: 360px;
+}
+.hm_pro{
+    padding-top: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    height:215px;
+}
+.hm_pro p{
+    height: 70px;
+}
+.hm_pro p:nth-child(2){
+    line-height: 108px;
+}
+.hm_pro i{
+    font-size: 27px;
+}
+.hm ul{
+    margin-top: 30px;
+    height: 104px;
+}
+.hm ul li{
+    line-height: 90px;
+    width: 225px;
+    height: 90px;
+}
+
+}

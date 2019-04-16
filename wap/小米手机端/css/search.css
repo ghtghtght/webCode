@@ -1,0 +1,38 @@
+body{
+    background-color: #f5f5f5;
+}
+#main{
+    width: 95%; 
+    margin: 0 auto;
+    padding-top: 5vw;
+}
+#main >ul >li{
+    float: left;
+    background-color:#e4e4e4;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+.top{
+    border: 1px solid #fe8a6d;
+    background-color: #f5f0ee;
+}
+#main >ul> li> a{
+     display: inline-block;
+     font-size: 4vw;
+     margin: 2vw;     
+}
+@media (min-width: 730px){
+#main{
+    padding-top: 32px;
+}
+#main >ul >li{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#main >ul> li> a{
+     font-size:28px;
+     margin: 20px;     
+} 
+
+} 
+

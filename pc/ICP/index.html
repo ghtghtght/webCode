@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>成都优啦</title>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="DIGIOCEAN (http://www.digiocean.cc/)">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-page-mode" content="app">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+	
+	<body>
+		<div id="bg1" class="bg1"></div>
+		<div class="top">
+			<header class="top_title">
+				欢迎进入成都优啦 <span style="cursor: pointer;" onclick="login(1)">登录 </span> <span style="cursor: pointer;" onclick="login(2)"> 注册</span><span style="margin-left: 120px;"><i style="background: url(img/phone.png) no-repeat;display:inline-block;background-position-y: 3px;vertical-align: middle;width: 32px;height: 32px;"></i>028-65735317</span>
+			</header>
+		</div>
+		<div class="menu">
+			<div class="menu_top"><img src="img/LOGO.png" alt="" /></div>
+			<div class="menu_bottom">
+				<ul class="menu_bottom_l">
+					<li>Home</li>
+					<li>产品中心</li>
+					<li>关于我们</li>
+					<li onclick="Investment()">招商加盟</li>
+					<li>联系我们</li>
+				</ul>
+				<ul class="menu_bottom_r">
+					<li ><span onclick="login(1)">登录</span><span onclick="login(2)">/注册</span></li>
+					<li><img src="img/bag.png" alt="" /></li>
+					<li><img src="img/search.png" alt="" /></li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<img style="display: none;" src="img/baner.png" alt="" />
+			<img  src="img/banner.png" alt="" />
+		</div>
+		<div class="connet">
+			<div class="connet_title">
+				<div class="connet_title_l">
+					<div class="connet_title_main">
+						<div class="text" style="height: 210px;width: 150px;margin: 0 auto;text-align: center;">
+							<p class="text_anmit" style="height: 120px;font-size: 50px;line-height: 120px;padding-top: 15px;"><span class="num"><span>01</span><br /><span style="color: #fff;">01</span></span></p>
+							<p style="height: 2px;width:55PX;margin-left:47.5PX;background-color: #bbb;"></p>
+							<p style="height: 70px;margin-top: 20px;color: #8A8A8A;">时尚女装</p>
+						</div>
+						<div class="detail" style="padding: 0 45px;font-size: 14px;line-height: 20px;color: #A6A6A6">倡导"Toast Of life全新礼数生活"为主,是为21世纪都市高贵女性(30-45智慧、自信、富有品位的女性)而设计</div>
+					</div>
+					<div class="connet_title_bg">
+						<img src="img/bg1.png" style="width: 375px;height: 375px;" alt="" />
+					</div>
+				</div>
+				<div class="connet_title_m">
+					<div class="connet_title_main">
+						<div class="text" style="height: 210px;width: 150px;margin: 0 auto;text-align: center;">
+							<p class="text_anmit" style="height: 120px;font-size: 50px;line-height: 120px;padding-top: 15px;"><span class="num"><span>02</span><br /><span style="color: #fff;">02</span></span></p>
+							<p style="height: 2px;width:55PX;margin-left:47.5PX;background-color: #bbb;"></p>
+							<p style="height: 70px;margin-top: 20px;color: #8A8A8A;">高贵女包</p>
+						</div>
+						<div class="detail" style="padding: 0 45px;font-size: 14px;line-height: 20px;color: #A6A6A6">传统与创新的完美结合，源自欧洲时尚文化，为所有20~35岁年轻个性、热爱生活、追求时尚的都市女性而设计，融合了意大利的艺术与 中国文化</div>
+					</div>
+					<div class="connet_title_bg">
+						<img src="img/bg2.png" style="width: 375px;height: 375px;" alt="" />
+					</div>
+				</div>
+				<div class="connet_title_r">
+					<div class="connet_title_main">
+						<div class="text" style="height: 210px;width: 150px;margin: 0 auto;text-align: center;">
+							<p class="text_anmit" style="height: 120px;font-size: 50px;line-height: 120px;padding-top: 15px;"><span class="num"><span>03</span><br /><span style="color: #fff;">03</span></span></p>
+							<p style="height: 2px;width:55PX;margin-left:47.5PX;background-color: #bbb;"></p>
+							<p style="height: 70px;margin-top: 20px;color: #8A8A8A;">美颜护肤</p>
+						</div>
+						<div class="detail" style="padding: 0 45px;font-size: 14px;line-height: 20px;color: #A6A6A6;">女性的美丽，源自健康的肌肤。由内而外焕发光彩的素颜美肌，令您无论略施粉黛抑或是精心装扮，都能更加自信，充满活力。</div>
+					</div>
+					<div class="connet_title_bg">
+						<img src="img/bg3.png" style="width: 375px;height: 375px;" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="wraper" style="margin-top: 75px;">
+				<div class="wraper_top">
+					<h2><span class="wraper_top_title"></span>时尚女装</h2>
+				</div>
+				<div class="wraper_bootom">
+					<div class="wraper_bootom_main" onclick="detail(1)">
+						<div><img style="width: 580px;height: 380px;" src="img/bg1_1.png" /></div>
+						<div class="wraper_bootom_text">
+							<p><span>1200</span><span style="font-size: 16px;">RMB</span></p>
+							<p>2017早秋新款复古文艺花色七分袖外套</p>
+						</div>
+					</div>
+					<div class="wraper_bootom_main" onclick="detail(2)">
+						<div><img style="width: 290px;height: 380px;" src="img/bg1_2.png" /></div>
+						<div class="wraper_bootom_text">
+							<p><span>2200</span><span style="font-size: 16px;">RMB</span></p>
+							<p>2017新款水貂中长款皮草</p>
+						</div>
+					</div>
+					<div class="wraper_bootom_main" onclick="detail(3)">
+						<div><img style="width: 290px;height: 380px;" src="img/bg1_3.png" /></div>
+						<div class="wraper_bootom_text">
+							<p><span>2800</span><span style="font-size: 16px;">RMB</span></p>
+							<p>2017新款绵羊超长款修身</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wraper" style="margin-top: 75px;">
+				<div class="wraper_top">
+					<h2><span class="wraper_top_title"></span>高贵女包</h2>
+				</div>
+				<div class="wraper_bootom">
+					<div class="wraper_bootom_main" onclick="detail(4)">
+						<div><img style="width: 580px;height: 380px;" src="img/bg2_1.png" /></div>
+						<div class="wraper_bootom_text">
+							<p><span>500</span><span style="font-size: 16px;">RMB</span></p>
+							<p>2017新潮韩版百搭简约个性时尚欧美手提包</p>
+						</div>
+					</div>
+					<div class="wraper_bootom_main" onclick="detail(5)">
+						<div><img style="width: 290px;height: 380px;" src="img/bg2_2.png" /></div>
+						<div class="wraper_bootom_text">
+							<p><span>120</span><span style="font-size: 16px;">RMB</span></p>
+							<p>简约大包unita韩国东门</p>
+						</div>
+					</div>
+					<div class="wraper_bootom_main" onclick="detail(6)">
+						<div><img style="width: 290px;height: 380px;" src="img/bg2_3.png" /></div>
+						<div class="wraper_bootom_text">
+							<p><span>150</span><span style="font-size: 16px;">RMB</span></p>
+							<p>2017新版韩款简约百搭夏...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wraper" style="margin-top: 75px;padding-bottom: 70px;">
+				<div class="wraper_top">
+					<h2><span class="wraper_top_title"></span>美颜护肤</h2>
+				</div>
+				<div class="wraper_bootom" style="font-size: 20px;color: #606060;text-align: center;font-weight: 700;line-height: 30px;">
+					<div class="skinCare" onclick="detail(7)">
+						<div class="skinCare_top">
+							<img src="img/bg3_1.jpg" alt="" />
+						</div>
+						<div>
+							<p>活力循环亮润水</p>
+							<p style="font-size: 14px;">基础型</p>
+						</div>
+					</div>
+					<div class="skinCare" onclick="detail(8)">
+						<div class="skinCare_top">
+							<img src="img/bg3_2.png" alt="" />
+						</div>
+						<div>
+							<p>臻源精粹修护精华油</p>
+							<p style="font-size: 14px;">SPF30+.PA++</p>
+						</div>
+					</div>
+					<div class="skinCare" onclick="detail(9)">
+						<div class="skinCare_top">
+							<img src="img/bg3_3.png" alt="" />
+						</div>
+						<div>
+							<p>净彻晚安洁面膏</p>
+							<p style="font-size: 14px;">滋润型</p>
+						</div>
+					</div>
+					<div class="skinCare" onclick="detail(10)">
+						<div class="skinCare_top">
+							<img src="img/bg3_4.png" alt="" />
+						</div>
+						<div>
+							<p>臻源多效眼霜</p>
+							<p style="font-size: 14px;">润颜保湿</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer style="height: 220px;font-size: 16PX;">
+			<div style="height: 35px;background-color: #000;margin-top: 30px;">
+				<ul style="width: 1200px;margin: 0 auto;display: flex;justify-content: flex-start;color: #cbcbce;line-height: 35px;">
+					<li style="width: 100px;margin-left: 120px;">关于我们</li>
+					<li style="width: 100px;">联系我们</li>
+					<li style="width: 100px;">最新公告</li>
+					<li style="width: 100px;">名品资讯</li>
+					<li style="width: 100px;">站点地图</li>
+				</ul>
+			</div>
+			<div style="line-height: 140px;text-align: center;color: #a7a7a7;font-size: 14px;">
+				Copyright @ 2017 成都优啦信息技术有限公司 版权所有 保留一切权利 蜀ICP备17035766号-1
+			</div>
+		</footer>
+		<div class="fixed">
+			<div style="position: absolute;top: 240px;">
+				<div onclick="login(1)">
+					<img src="img/photo.png" alt="" />
+				</div>
+				<div class="bg_banner1" style="height: 140px;border-top: 1px solid #333;border-bottom: 1px solid #333;">
+					<p style="font-size: 14px;color: #fff;text-align: center;">我的仓库</p>
+					<p style="font-size: 10px;color: #fff;width: 20px;height: 20px;border-radius: 50%;background-color: #ff5b62;text-align: center;margin: 10px 0 0 5px;">0</p>
+				</div>
+				<div class="bg_banner">
+					<img src="img/order.png" alt="" />
+				</div>
+				<div class="bg_banner">
+					<img src="img/money.png" alt="" />
+				</div>
+			</div>
+			<div style="position: absolute;bottom:0 ;">
+				<div class="bg_banner">
+					<img src="img/opinion.png" alt="" />
+				</div>
+				<div class="bg_banner">
+					<img src="img/server.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<!--//弹出框-->
+		<div class="login" style="font-size: 16px;display: none;">
+			<i onclick="loginSucc(0)" style="background: url(img/error.png) no-repeat;display: inline-block;width: 32px;height: 32px;position: absolute;top: 20px;right: 20px;cursor: pointer;"></i>
+			<div style="width: 280px;height: 280px;margin: 0 auto;margin-top: 50px;">
+				<p class="login_title" style="font-size: 22px;font-weight:700;line-height: 60px;height: 60px;">会员登录</p>
+				<p>
+					<input id="phone" type="text" placeholder="账号邮箱手机号" />
+				</p>
+				<p style="margin-top: 10px;">
+					<input  id="pass" type="text" onfocus="this.type='password'" placeholder="请输入密码" />
+				</p>
+				<p class="prompt" style="font-size: 12px;height:15px;line-height:20px;color:#CCCCCC;cursor: pointer;">密码需为8到16位数字和大小写字母组合</p>
+				<p style="margin-top: 10px;" class="conPass">
+					<input  id="conPass" type="text" onfocus="this.type='password'" placeholder="请确认密码" />
+				</p>
+				<p style="font-size: 12px;line-height: 35px;margin-bottom: 15px;cursor: pointer;">忘记密码</p>
+				<p style="height: 45px;">
+					<button class="login_btn" onclick="loginSucc(1)" style="height: 45px;background-color: #010417;width: 100%;border: none;outline: none;color: #fff;font-size: 20px;letter-spacing:5px;cursor: pointer;">会员登录</button>
+				</p>
+				<p id="registered" onclick="registered()" style="font-size: 12px;line-height: 35px;margin-top: 15px;cursor: pointer;">还没有账号？现在注册</p>
+				<p class="message" style="font-size: 12px;line-height: 35px;cursor: pointer;"></p>
+			</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+//	登录注册弹出框start
+	function login(index) {//1登录2注册
+		$("#bg1").show();
+		$(".login").show();
+		$(".message").html("");
+		if(index==1){
+			$(".login_title").text("会员登录");
+			$(".login_btn").text("会员登录");
+			$(".conPass").hide();
+		}else if(index==2){
+			$(".login_title").text("会员注册");
+			$(".login_btn").text("会员注册");
+			$(".conPass").show();
+		}
+	}
+	function loginSucc(index) {
+		if(index){//1 登录  2.取消
+			console.log($(".conPass").css("display"))
+				$(".login_title").text("会员登录");
+				$(".login_btn").text("会员登录");
+				if($("#phone").val()==undefined || $("#phone").val()==null || $("#phone").val()=="" || $("#phone").val().match(/^13[0-9]{9}$|14[0-9]{9}|15[0-9]{9}$|17[0-9]{9}$|18[0-9]{9}$/)==null){
+					$(".message").html("<font color='red'>请填写正确手机号！</font>")
+					$("#phone").focus();
+					return false;
+				}else if($("#pass").val()==undefined || $("#pass").val()==null || $("#pass").val()=="" || $("#pass").val().match(/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,16}$/)==null){
+					$(".message").html("<font color='red'>请填写正确密码！</font>")
+					$("#pass").focus();
+					return false;
+				}else if($(".conPass").css("display")=="block"){
+					if($("#conPass").val()==undefined || $("#conPass").val()==null || $("#conPass").val()=="" ||  $("#conPass").val()!=$("#pass").val()){
+						$(".message").html("<font color='red'>请检查密码是否正确！</font>")
+						$("#conPass").focus();
+						return false;
+					}else{
+						$(".message").html("");
+						$("#bg1").hide();
+						$(".login").hide();
+					}
+					
+				}else{
+					$(".message").html("");
+					$("#bg1").hide();
+					$(".login").hide();
+				}	
+		}else{
+			$("#bg1").hide();
+			$(".login").hide();
+		}
+	}
+	function registered(){
+		$(".login_title").text("会员注册");
+		$(".login_btn").text("会员注册");
+		$(".conPass").show();
+		$(".message").html("");
+	}
+//	登录注册end
+//页面效果start
+	$(".ilist .detail").height($(".ilist li").eq(0).height() * 0.22)
+	// INDEX NEWS
+	$(".connet_title >div").hover(function(){
+		var $detail = $(this).find(".detail"),
+		$sign   = $(this).find(".connet_title_main"),
+		$img    = $(this).find(".connet_title_bg img");
+		$sign.addClass("hover");
+		$(this).find(".connet_title_main .text .text_anmit .num").stop().animate({
+            top:"-120px"  
+        },500);
+	}, function(){
+		var $detail = $(this).find(".detail"),
+		$sign   = $(this).find(".connet_title_main"),
+		$img    = $(this).find(".connet_title_bg img");
+		$sign.removeClass("hover");
+		$(this).find(".connet_title_main .text .text_anmit .num").stop().animate({
+            top:"0"  
+        },500);
+	})
+//	页面效果end
+//	banner图轮播start
+	var len = $(".banner img").length; 
+		var n = 0;
+		setInterval(function(){
+			if(n==0){     
+			    n=len
+			}else{
+			    n--;
+			    $(".banner img").eq(n).stop().show().siblings().hide();
+			}
+		},3000) 
+//		banner图轮播end
+	function Investment(){
+		location.href="InvestmentPromotion.html"
+	}
+	//商品详情页面
+	function detail(index){
+		location.href="detail"+index+".html"
+	}
+</script>

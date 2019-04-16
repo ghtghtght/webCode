@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Css3 Images Fade & Slider</title>
+<style type="text/css">
+body{background:#f8f8f8; margin:0;}
+img{border:0; vertical-align:middle;}
+.focus{width:800px; margin:0 auto; position:relative; overflow:hidden;}
+.images{height:350px; overflow:hidden; position:relative;}
+.images .item{position:absolute; top:0; left:0; height:350px; overflow:hidden; opacity:0; transition:opacity 0.8s linear; -webkit-transition:opacity 0.8s linear;}
+.images .item img{width:800px;}
+.images .active{opacity:1;}
+.control{position:absolute; bottom:10px; width:100%; text-align:center;}
+.control span{display:inline-block; cursor:pointer; background:#5fbab1; color:#fff; width:25px; height:25px; text-align:center; line-height:25px; border-radius:25px; margin:0 8px;}
+.control span.active{background:#e77918;}
+.title{position:absolute; left:0; top:30%; width:100%;} 
+.title p{position:absolute; left:0; top:0; background:#000; background:rgba(0,0,0,0.8); color:#fff; padding:20px 0; margin:0; text-indent:10px; width:300px; opacity:0; transform:translateX(-300px); -webkit-transform:translateX(-300px); transition:all 0.8s ease-out; -webkit-transition:all 0.8s ease-out;}
+.title p.active{opacity:1; transform:translateX(0); -webkit-transform:translateX(0);}
+</style>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$(function(){
+	$('.images .item:first, .control span:first, .title p:first').addClass('active');
+	var index = 0,
+		len = $('.images .item').length;
+		autoPlay = function(){
+			$('.images .item').eq(index++).addClass('active').siblings('.item').removeClass('active');
+			$('.title p').eq(index-1).addClass('active').siblings('p').removeClass('active');
+			$('.control span').eq(index-1).addClass('active').siblings('span').removeClass('active');
+			if(index == len){index = 0;}
+		},
+		loop = setInterval(autoPlay,3000);
+	$('.control span').hover(function(){
+		index = $(this).index();
+		autoPlay();
+		clearInterval(loop);
+	},function(){
+		loop = setInterval(autoPlay,3000);
+	})
+})
+</script>
+</head>
+
+<body>
+<div class="focus">
+	<div class="images">
+    	<div class="item"><img src="http://d.lanrentuku.com/down/js/jiaodiantu-1041/images/banner_01.jpg" /></div>
+    	<div class="item"><img src="http://d.lanrentuku.com/down/js/jiaodiantu-1041/images/banner_02.jpg" /></div>
+    	<div class="item"><img src="http://d.lanrentuku.com/down/js/jiaodiantu-1041/images/banner_03.jpg" /></div>
+    </div>
+    <div class="title">
+    	<p>不变的安全才是最可靠的安全。</p>
+        <p>清新的绿色源自身边的绿色。</p>
+        <p>服务于生活的科技才是最高端的科技。</p>
+    </div>
+    <div class="control">
+    	<span>1</span>
+        <span>2</span>
+        <span>3</span>
+    </div>
+</div>
+</body>
+</html>

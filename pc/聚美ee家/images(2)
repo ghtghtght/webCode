@@ -1,0 +1,591 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title>北京装修 北京装修公司排名 聚美易家【官方网站】北京最靠谱的装饰公司 北京十大装饰品牌 北京聚美易家装饰欢迎您！</title>
+    <meta content="" name="Keywords" />
+    <meta content="" name="Description" />
+
+<link rel="Shortcut Icon" href="/favicon.ico" />
+<link href="/Websites/shenghuojia/Templates/pc_shj/Static/css/css.css" rel="stylesheet" type="text/css">
+<link href="/Websites/shenghuojia/Templates/pc_shj/Static/css/page.css" rel="stylesheet" type="text/css">
+<link href="/Websites/shenghuojia/Templates/pc_shj/Static/css/common.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/Websites/shenghuojia/Templates/pc_shj/Static/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="/Websites/shenghuojia/Templates/pc_shj/Static/js/long-0.1.js"></script>
+<script type="text/javascript" src="/Addons/Xiaobing360GoToMobile/uaredirect.js"></script>
+<script type="text/javascript">
+    uaredirect("http://m.jmejzs.com");
+</script></head>
+<body>
+<div class="layout">
+   
+	<!-- 头部 -->
+	<!--/*顶部城市选择*/-->
+
+<div class="floatBox">
+    <a  class="rel" onclick="doyoo.util.openChat(g=10063997);return false;" href="javascript:vivo;" target="_blank"  onClick="" >
+        <i class="icon Icon53 abs"></i>
+        <p class="gotopTxt ac">在线咨询</p>
+    </a>
+    <a onclick="doyoo.util.openChat(g=10063997);return false;" href="javascript:vivo;" target="_blank" class="rel">
+        <i class="icon Iconsj abs"></i>
+        <p class="gotopTxt ac">预约设计</p>
+    </a> 
+    <a href="javascript:;"  class="rel">
+        <i class="icon Iconhd abs" id="apperweima"></i>
+        <p class="gotopTxt ac">扫一扫</p>
+    </a>
+    <a href="javascript:;" id="gotop" class="rel">
+        <i class="icon gotopIcon abs"></i>
+        <p class="gotopTxt ac">返回顶部</p>
+    </a>
+    <div class="apperweima abs hide" id="apperweimabox"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799c58f3b2a4.png" width="200" height="200"  alt=""/></div>
+</div>
+
+ 
+
+
+<div class="topCityBox">
+    <div class="col ar">
+
+        <span>欢迎进入北京装修 北京装修公司排名 聚美易家【官方网站】北京最靠谱的装饰公司 北京十大装饰品牌 北京聚美易家装饰欢迎您！ </span>
+    </div>
+</div>
+<!--顶部广告位-->
+
+
+
+
+
+<!--搜索框-->
+<div class="topBox">
+    <div class="col">
+        <div class="logo fl"><a href="/"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799f08db7445.jpg" width="400" height="80"  alt="北京装修 北京装修公司排名 聚美易家【官方网站】北京最靠谱的装饰公司 北京十大装饰品牌 北京聚美易家装饰欢迎您！"/></a></div>
+        <!--<div class="brandLogo ac fl"><img src="/Websites/shenghuojia/Templates/pc_shj/Static/picture/brandlogo1.jpg" width="110" height="60"  alt=""/></div>-->
+        <div class="searchBox fl">
+            <div class="fromBox rel">
+                <form id="searchFrom" action="/search" method="post">
+				<input type="hidden" name="cate" id="cate" value="1">
+                    <div class="type abs" id="searchWhere"><span id="searchTxt">案例</span>
+                        <i class="abs icon"></i>
+
+                        <div class="abs typelist hide " id="wherebtn">
+						<a href="javascript:;" cate="1" data-v="海量精美效果图任你选"  >案例</a>
+						<a href="javascript:;" cate="3"  data-v="请输入您家小区的名称" >小区</a>
+						</div>
+                    </div>
+                    <div class="inputBox abs">
+                        <input type="text" name="keyword" placeholder="海量精美效果图任你选" id="key">
+                    </div>
+                    <div class="BtnBox abs">
+                        <input type="submit" class="btn" value="搜索">
+                    </div>
+                </form>
+                <script>
+                    $("#wherebtn a").click(function(){
+                        $("#cate").val($(this).attr("cate"));
+                        $("#searchTxt").text($(this).text());
+                        $("#wherebtn").hide();
+                        $("#key").attr("placeholder",$(this).attr("data-v"));
+                    });
+                </script>
+            </div>
+            <div class="keyword">
+                
+				</div>
+        </div>
+        <div class="topTel fl">
+		
+            <img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799cf17edfcb.png" alt=""  width="170" height="80"  alt=""/>
+
+        </div>
+    </div>
+</div>
+<!--导航-->
+<div class="navBg">
+    <div class="col"> <a href="javascript:;" target="_blank" class="joinBtn fr ac rel"> <i class=" abs icon"></i>诚信经营</a>
+        <ul class="nav">
+            <li class="case ac rel" id="anshowbtn">
+                <i class="icon navyy abs"></i>
+                <i class="abs icon vicon" style="left: 143px;"></i><a href="javascript:;"  class="anlibtn" title="装修效果图">家装案例</a>
+                <div id="caseItemBox" class="caseItemBox abs al   hide  ">
+                                        <h1><i class="icon i1 abs"></i>产品套系</h1>
+                    <p>
+                        <a title="全部" target="_blank"  href="/lists/1/fengge/0/mianji/0/huxing/0/taoxi/0.html" title="全部"  >全部</a><a title="优享装" target="_blank"  href="/lists/1/fengge/0/mianji/0/huxing/0/taoxi/1.html" title="优享装"  >优享装</a><a title="极致家" target="_blank"  href="/lists/1/fengge/0/mianji/0/huxing/0/taoxi/2.html" title="极致家"  >极致家</a>                    </p>
+                    <p class="l">////////////////////////////////////////////////// </p><h1><i class="icon i2 abs"></i>装修风格</h1>
+                    <p>
+                        <a title="全部" target="_blank"  href="/lists/1/taoxi/0/mianji/0/huxing/0/fengge/0.html" title="全部"  >全部</a><a title="现代简约" target="_blank"  href="/lists/1/taoxi/0/mianji/0/huxing/0/fengge/1.html" title="现代简约"  >现代简约</a><a title="田园" target="_blank"  href="/lists/1/taoxi/0/mianji/0/huxing/0/fengge/2.html" title="田园"  >田园</a><a title="欧式" target="_blank"  href="/lists/1/taoxi/0/mianji/0/huxing/0/fengge/3.html" title="欧式"  >欧式</a><a title="中式" target="_blank"  href="/lists/1/taoxi/0/mianji/0/huxing/0/fengge/4.html" title="中式"  >中式</a><a title="地中海" target="_blank"  href="/lists/1/taoxi/0/mianji/0/huxing/0/fengge/5.html" title="地中海"  >地中海</a><a title="混搭" target="_blank"  href="/lists/1/taoxi/0/mianji/0/huxing/0/fengge/6.html" title="混搭"  >混搭</a><a title="美式乡村" target="_blank"  href="/lists/1/taoxi/0/mianji/0/huxing/0/fengge/7.html" title="美式乡村"  >美式乡村</a><a title="其他" target="_blank"  href="/lists/1/taoxi/0/mianji/0/huxing/0/fengge/8.html" title="其他"  >其他</a>                    </p>
+                    <p class="l">////////////////////////////////////////////////// </p><h1><i class="icon i3 abs"></i>房屋面积</h1>
+                    <p>
+                        <a title="全部" target="_blank"  href="/lists/1/taoxi/0/fengge/0/huxing/0/mianji/0.html" title="全部"  >全部</a><a title="40平以下" target="_blank"  href="/lists/1/taoxi/0/fengge/0/huxing/0/mianji/0-40.html" title="40平以下"  >40平以下</a><a title="41-60平" target="_blank"  href="/lists/1/taoxi/0/fengge/0/huxing/0/mianji/41-60.html" title="41-60平"  >41-60平</a><a title="61-80平" target="_blank"  href="/lists/1/taoxi/0/fengge/0/huxing/0/mianji/61-80.html" title="61-80平"  >61-80平</a><a title="80平以上" target="_blank"  href="/lists/1/taoxi/0/fengge/0/huxing/0/mianji/81-1000.html" title="80平以上"  >80平以上</a>                    </p>
+                    <p class="l">////////////////////////////////////////////////// </p><h1><i class="icon i4 abs"></i>装修户型</h1>
+                    <p>
+                        <a title="全部" target="_blank"  href="/lists/1/taoxi/0/fengge/0/mianji/0/huxing/0.html" title="全部"  >全部</a><a title="普通住宅" target="_blank"  href="/lists/1/taoxi/0/fengge/0/mianji/0/huxing/1.html" title="普通住宅"  >普通住宅</a><a title="跃层" target="_blank"  href="/lists/1/taoxi/0/fengge/0/mianji/0/huxing/2.html" title="跃层"  >跃层</a><a title="公寓" target="_blank"  href="/lists/1/taoxi/0/fengge/0/mianji/0/huxing/3.html" title="公寓"  >公寓</a><a title="别墅" target="_blank"  href="/lists/1/taoxi/0/fengge/0/mianji/0/huxing/4.html" title="别墅"  >别墅</a><a title="其他" target="_blank"  href="/lists/1/taoxi/0/fengge/0/mianji/0/huxing/5.html" title="其他"  >其他</a>                    </p>
+                    <p class="l">////////////////////////////////////////////////// </p>
+                </div>
+            </li>
+            <li><a href="/" class="itema">首页</a></li>
+			
+			<li><a href="/page/20.html" class="itema">优享装</a></li>
+				
+				<li><a href="/page/21.html" class="itema">极致家</a></li>
+				
+				<li><a href="/lists/1.html" class="itema">家装案例</a></li>
+				
+				<li><a href="/lists/2.html" class="itema">设计团队</a></li>
+				
+				 
+				
+				<li class="rel submenu">
+					<a href="/lists/3.html" class="itema"><i class="abs   hotIcon"></i><i class="abs icon vicon"></i>热装小区</a>
+						 <!---二级导航判断-->
+					<div class="box">
+							<!---二级导航-->
+							<a href="/lists/4.html">在建工地</a><a href="/lists/5.html">客户见证</a><a href="/lists/17.html">热门活动</a><a href="/lists/18.html">视频案例</a>						</div>
+				</li> 
+				
+				<li class="rel submenu">
+					<a href="/lists/6.html" class="itema"><i class="abs   hotIcon"></i><i class="abs icon vicon"></i>家装知识</a>
+						 <!---二级导航判断-->
+					<div class="box">
+							<!---二级导航-->
+							<a href="/lists/7.html">家装攻略</a><a href="/lists/8.html">材料知识</a><a href="/lists/9.html">家居风水</a><a href="/lists/10.html">设计知识</a>						</div>
+				</li> 
+				
+				<li class="rel submenu">
+					<a href="/page/11.html" class="itema"><i class="abs   hotIcon"></i><i class="abs icon vicon"></i>聚美故事</a>
+						 <!---二级导航判断-->
+					<div class="box">
+							<!---二级导航-->
+							<a href="/lists/23.html">新闻动态</a><a href="/page/13.html">聚美简介</a><a href="/page/15.html">企业文化</a><a href="/page/16.html">联系我们</a>						</div>
+				</li>		
+
+        </ul>
+    </div>
+</div>
+	<!-- /头部 -->
+	<!-- 主体 -->
+    
+<!--banner-->
+<div class="bannerBox rel">     
+        <div id="slides">        
+           
+          <div style="height:430px; width:1920px; background:url('/Websites/shenghuojia/Uploads/Picture/2016-08-04/57a3137460c46.gif') no-repeat center top;"><a style=" height:430px; width:auto; display:block;" href="" target="_blank">  </a> </div><div style="height:430px; width:1920px; background:url('/Websites/shenghuojia/Uploads/Picture/2016-07-29/579b2a75c1370.jpg') no-repeat center top;"><a style=" height:430px; width:auto; display:block;" href="" target="_blank">  </a> </div><div style="height:430px; width:1920px; background:url('/Websites/shenghuojia/Uploads/Picture/2016-07-29/579b2f59c8e8a.jpg') no-repeat center top;"><a style=" height:430px; width:auto; display:block;" href="" target="_blank">  </a> </div> 
+		  
+        </div>
+    
+</div>
+<!--计价器-->
+<div class="col compute rel"><iframe class="zxbjif" src="Zhuangxiu/baojiaqi" height="220"  scrolling="no" frameborder="0" width="1100" ></iframe>
+<a onclick="doyoo.util.openChat(g=10063997);return false;" target="_blank" style="height:30px; width:145px;  top: 176px; right: 18px; position: absolute;display: block;" ></a>
+</div>
+
+<!--装修流程-->
+<div class="process">
+	<p><i class="abs ii1 icon"></i>预约咨询<i class="abs i1 icon"></i></p>
+	<p><i class="abs ii2 icon"></i>上门量房<i class="abs i1 icon"></i></p>
+	<p><i class="abs ii3 icon"></i>方案设计<i class="abs i1 icon"></i></p>
+	<p><i class="abs ii4 icon"></i>施工安装<i class="abs i1 icon"></i></p>
+	<p><i class="abs ii5 icon"></i>售后服务<i class="abs i1 icon"></i></p>
+    <a  onclick="doyoo.util.openChat(g=10063997);return false;"  target="_blank"  class="btn ac fr">立即预约免费量房</a>
+</div>
+<!--案例-->
+<div class="col iTitle">
+  <h1><p class="fr" style="padding-right:20px;"><img src="/Websites/shenghuojia/Templates/pc_shj/Static/picture/it1.png" width="373" height="57"  alt="" /></p>家装案例</h1>
+</div>
+<div class="icasebox">
+      
+  
+  <div class="item1 fl">
+    <div class="probox rel"> <img src="/Websites/shenghuojia/Templates/pc_shj/Static/picture/ytitle.jpg" width="353" height="200"  alt="了解优享装"/> <a href="/lists/1/taoxi/1.html" class="pbtn abs ac">了解优享装</a> <a href="/lists/1/taoxi/1.html" class="casebtn abs ac">查看更多案例</a> </div>
+    
+	<div class="case rel">
+      <p class="img abs cevent"><a href="/detail/53.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-05-26/5746a0275a8b3.jpg" width="363" height="200"  alt=""/> </a></p>
+      <h1 class="abs t ac">田园——路劲·世界城</h1>
+      <p class="abs bg"></p>
+    </div>	
+  </div>
+  
+  <div class="item2 fl rel">
+    <div class="abs bigimg cevent"><a href="/detail/70.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-08-05/57a46e3da103d.gif" width="440" height="415"  alt=""/></a></div>
+    <h1 class="abs t ac">现代简约——首城汇景湾</h1>
+    <p class="abs bg"></p>
+    <p class="info abs ac">现代简约&nbsp;&nbsp;10万</p>
+  </div>  <div class="item3 fr">
+	<div class="case rel marb15">
+      <p class="img abs cevent"><a href="/detail/74.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-08-09/57a9414fde969.jpg" width="260" height="200"  alt=""/></a> </p>
+      <h1 class="abs t">中式——路劲·世界城</h1>
+      <p class="abs bg"></p>
+    </div>	<div class="case rel ">
+      <p class="img abs cevent"><a href="/detail/14.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-08/5707290fc2593.jpg" width="260" height="200"  alt=""/></a> </p>
+      <h1 class="abs t">田园——路劲·世界城</h1>
+      <p class="abs bg"></p>
+    </div>	
+   </div>
+  
+	 
+  
+  <div class="clear"></div>
+  <div class="line ">/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</div>
+  
+
+ 
+  <div class="item1 fl">
+    <div class="probox rel"> <img src="/Websites/shenghuojia/Templates/pc_shj/Static/picture/ztitle.jpg" width="353" height="200"  alt="了解极致家"/> <a href="/lists/1/taoxi/2.html" class="pbtn abs ac">了解极致家</a> <a href="/lists/1/taoxi/2.html" class="casebtn abs ac">查看更多案例</a> </div>
+	 <div class="case rel">
+      <p class="img abs cevent"><a href="/detail/68.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-08-05/57a46acf60165.gif" width="363" height="200"  alt=""/> </a></p>
+      <h1 class="abs t ac">混搭——沿海赛洛城小区</h1>
+      <p class="abs bg"></p>
+    </div>  </div>
+  
+  <div class="item2 fl rel">
+    <div class="abs bigimg cevent"><a href="/detail/54.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-05-26/5746a066c5196.jpg" width="440" height="415"  alt=""/></a></div>
+    <h1 class="abs t ac">田园——首城汇景湾</h1>
+    <p class="abs bg"></p>
+    <p class="info abs ac">田园&nbsp;&nbsp;15万</p>
+  </div>  <div class="item3 fr">
+	<div class="case rel marb15">
+      <p class="img abs cevent"><a href="/detail/13.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-05-26/5746a08bf0604.jpg" width="260" height="200"  alt=""/></a> </p>
+      <h1 class="abs t">中式——首城汇景湾</h1>
+      <p class="abs bg"></p>
+    </div>	<div class="case rel ">
+      <p class="img abs cevent"><a href="/detail/11.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-03-21/56f01746ad9bd.jpg" width="260" height="200"  alt=""/></a> </p>
+      <h1 class="abs t">欧式——沿海赛洛城小区</h1>
+      <p class="abs bg"></p>
+    </div>	
+   </div>
+   
+  <div class="clear"></div>
+</div>
+
+
+<div class="col iTitle">
+  <h1><a href="/lists/18.html" class="fr">更多 >></a><p class="fr" style="padding-right:20px;"><img src="/Websites/shenghuojia/Templates/pc_shj/Static/picture/it2.png" width="409" height="57"  alt="" /></p>视频案例</h1></div>
+<!--视频播放-->
+<div class="videoBox">
+
+<div class="item fl rel ">
+    <div class="img abs"><img src="/Websites/shenghuojia/Uploads/Picture/2016-08-01/579f0c380f734.jpg" width="335" height="222"  alt=""/></div>
+    <div class=" abs icon playicon"></div>
+    <p class="bg abs"></p>
+    <div class="txtbox abs">
+        <p class="txt abs ar"> 空气污染致死率堪比车祸，国人装修环保意识弱！<br></p>
+        <a href="/detail/21.html" class="btnplay abs ac">立即播放</a> 
+    </div>
+  </div><div class="item fl rel marlr">
+    <div class="img abs"><img src="/Websites/shenghuojia/Uploads/Picture/2016-08-01/579f087ad15c9.jpg" width="335" height="222"  alt=""/></div>
+    <div class=" abs icon playicon"></div>
+    <p class="bg abs"></p>
+    <div class="txtbox abs">
+        <p class="txt abs ar">设计房屋必看的视频：BBC-室内设计规则01<br></p>
+        <a href="/detail/20.html" class="btnplay abs ac">立即播放</a> 
+    </div>
+  </div><div class="item fl rel ">
+    <div class="img abs"><img src="/Websites/shenghuojia/Uploads/Picture/2016-08-01/579f053f88683.jpg" width="335" height="222"  alt=""/></div>
+    <div class=" abs icon playicon"></div>
+    <p class="bg abs"></p>
+    <div class="txtbox abs">
+        <p class="txt abs ar">震撼! 一个老外装修的全过程<br></p>
+        <a href="/detail/19.html" class="btnplay abs ac">立即播放</a> 
+    </div>
+  </div>            
+       
+ 
+</div>
+<!--广告-->
+   
+                       
+        
+
+
+<!--团装风暴-->
+<div class="col iTitle">
+  <h1 class="itztitle fl"><a onclick="doyoo.util.openChat(g=10063997);return false;" href="javascript:;" class="fr">立即参团 >></a>团装风暴</h1>  <h1 class="izjgdtitle fr"><a onclick="doyoo.util.openChat(g=10063997);return false;" href="javascript:;" class="fr">立即预约参观   >></a>在建工地</h1></div>
+<div class="col tzzjBox">
+  <div class="itzbox fl">
+    <div class="txt fl">
+      <h1>热装小区活动</h1>
+			<p><a href="/detail/84.html">万达广场</a></p><p><a href="/detail/83.html">新华联慧谷</a></p><p><a href="/detail/69.html">恒大幸福家园</a></p><p><a href="/detail/8.html">沿海赛洛城小区</a></p><p><a href="/detail/7.html">首城汇景湾</a></p><p><a href="/detail/6.html">路劲·世界城</a></p>  
+      
+      <div class="tzline"></div>
+      <a href="/lists/3.html" class="btn ac">查看更多小</a></div>    <div class="img fr rel">
+          
+       	
+               <div id="slides2">       	 
+					<div style="height:350px; width:380px;"><a href="/detail/84.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-08-10/57aa8ef563537.jpg" width="380" height="350"  alt="万达广场"/></a></div><div style="height:350px; width:380px;"><a href="/detail/83.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-08-10/57aa8ad781ed5.jpg" width="380" height="350"  alt="新华联慧谷"/></a></div><div style="height:350px; width:380px;"><a href="/detail/69.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-08-03/57a1c133e7064.jpg" width="380" height="350"  alt="恒大幸福家园"/></a></div><div style="height:350px; width:380px;"><a href="/detail/8.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-03-20/56ee7d481e221.png" width="380" height="350"  alt="沿海赛洛城小区"/></a></div><div style="height:350px; width:380px;"><a href="/detail/7.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-03-20/56ee7ceaa8180.png" width="380" height="350"  alt="首城汇景湾"/></a></div>   
+            		 
+        </div>
+                 
+         
+    </div>
+  </div>
+  <div class="izjgdBox fr">
+		<div class="infoBox fl">
+        	     
+     		<p class="img"><a href="/detail/61.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-08-03/57a1c1688b7a3.jpg" width="220" height="200"  alt=""/></a></p>
+            <h1>恒大城三居室----瓷砖铺贴完成</h1>
+            <p>
+            	 恒大城三居室——瓷砖铺贴完成            </p> 
+            <p class="ar"><a href="/detail/61.html" class="abtn">点击查看详情 >></a></p>
+                		  
+         </div> 
+        <div class="listBox fr  ">
+        	<h1 class="ac"><!--<span>楼盘名称</span><span class="span1 hide">面积</span><span class="hide">工程进度</span>-->在建工地</h1>
+						<p> <a href="/detail/63.html" title="幸福家园——材料进场">幸福家园——材料进场</a> </p><p> <a href="/detail/60.html" title="聚美易家——集中开工仪式">聚美易家——集中开工仪式</a> </p><p> <a href="/detail/29.html" title="朝阳雅筑——施工水电阶段">朝阳雅筑——施工水电阶段</a> </p> 
+                		  
+        </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="col iTitle">
+  <h1><a href="/lists/2.html" class="fr">更多 >></a><p class="fr" style="padding-right:20px;"><img src="/Websites/shenghuojia/Templates/pc_shj/Static/picture/it3.png" width="451" height="57"  alt="" /></p>设计团队</h1></div>
+<div class="idesBOx" >
+  <ul id="ides">
+  
+  <li>
+      <div class="img abs"><a href="/detail/15.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799d3468fa4a.jpg" width="212" height="199"  alt=""/></a></div>
+      	<div class="bg abs"></div>
+      	<div class="infobox abs">
+        	<h1><span>邵俊德</span>设计总监</h1>
+            <p>从业年限：<strong>15</strong>年</p>
+            <p>为<strong>360</strong>户家庭设计过房子</p>
+      </div>
+      <a href="/detail/15.html" class="btn ac btn1 abs">查看案例</a>
+      <a onclick="doyoo.util.openChat(g=10063997);return false;" class="btn ac btn2 abs">预约设计师</a>
+    </li><li>
+      <div class="img abs"><a href="/detail/5.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799d6c335975.jpg" width="212" height="199"  alt=""/></a></div>
+      	<div class="bg abs"></div>
+      	<div class="infobox abs">
+        	<h1><span>唐晓琳</span>主任设计师</h1>
+            <p>从业年限：<strong>5</strong>年</p>
+            <p>为<strong>36</strong>户家庭设计过房子</p>
+      </div>
+      <a href="/detail/5.html" class="btn ac btn1 abs">查看案例</a>
+      <a onclick="doyoo.util.openChat(g=10063997);return false;" class="btn ac btn2 abs">预约设计师</a>
+    </li><li>
+      <div class="img abs"><a href="/detail/4.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799d880e3590.jpg" width="212" height="199"  alt=""/></a></div>
+      	<div class="bg abs"></div>
+      	<div class="infobox abs">
+        	<h1><span>周日</span>金牌设计师</h1>
+            <p>从业年限：<strong>5</strong>年</p>
+            <p>为<strong>36</strong>户家庭设计过房子</p>
+      </div>
+      <a href="/detail/4.html" class="btn ac btn1 abs">查看案例</a>
+      <a onclick="doyoo.util.openChat(g=10063997);return false;" class="btn ac btn2 abs">预约设计师</a>
+    </li><li>
+      <div class="img abs"><a href="/detail/3.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799db682f80d.jpg" width="212" height="199"  alt=""/></a></div>
+      	<div class="bg abs"></div>
+      	<div class="infobox abs">
+        	<h1><span>张曦予</span>主任设计师</h1>
+            <p>从业年限：<strong>3</strong>年</p>
+            <p>为<strong>28</strong>户家庭设计过房子</p>
+      </div>
+      <a href="/detail/3.html" class="btn ac btn1 abs">查看案例</a>
+      <a onclick="doyoo.util.openChat(g=10063997);return false;" class="btn ac btn2 abs">预约设计师</a>
+    </li><li>
+      <div class="img abs"><a href="/detail/2.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799dbf200504.jpg" width="212" height="199"  alt=""/></a></div>
+      	<div class="bg abs"></div>
+      	<div class="infobox abs">
+        	<h1><span>孔连城</span>首席设计师</h1>
+            <p>从业年限：<strong>5</strong>年</p>
+            <p>为<strong>55</strong>户家庭设计过房子</p>
+      </div>
+      <a href="/detail/2.html" class="btn ac btn1 abs">查看案例</a>
+      <a onclick="doyoo.util.openChat(g=10063997);return false;" class="btn ac btn2 abs">预约设计师</a>
+    </li>     
+         
+  </ul>
+</div>
+
+<!--家装知识客户见证-->
+<div class="col iTitle">
+  <h1 class="ijzzstitle fl"><a href="/lists/6.html" class="fr">更多 >></a>家装知识   <span style="padding:0 15px;"></span>
+		<a href="/lists/7.html" >家装攻略</a><a href="/lists/8.html" >材料知识</a><a href="/lists/9.html" >家居风水</a><a href="/lists/10.html" >设计知识</a>  </h1>
+  
+  <h1 class="ikhjztitle fr"><a href="/lists/5.html" class="fr">更多 >></a>客户见证</h1>
+</div>
+
+     
+<div class="ijzjzbox col">
+  <div class="ijzzsBox fl">
+   <div class="item1 fl">
+      <p class="img"><a href="/detail/35.html" title="全面解析春季装修的利与弊"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd56288b994.png" width="339" height="235"  alt="全面解析春季装修的利与弊"/></a></p>
+      <h1 class="t"><a href="/detail/35.html" title="全面解析春季装修的利与弊">全面解析春季装修的利与弊</a></h1>
+      <p class="desc">俗话说，“一年之计在于春”，很多人都说春天是家庭装修的好时节，那么春季装修是否好呢？其实，春季装修有其优势也有其劣势。下...</p>
+      <p class="url ar"><a href="/detail/35.html">详情 >></a></p>
+    </div>    
+    <div class="item1 item2 fr">
+     <div class="art">
+        	<p class="fl"><a href="/detail/34.html"  title="大户型卧室装修十大要点"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd55e91ed5d.jpg" width="145" height="111"  alt="大户型卧室装修十大要点"/></a></p>
+          <div class="txt fr">
+            	<h1 class="t"><a href="/detail/34.html"  title="大户型卧室装修十大要点">大户型卧室装修十大要点</a></h1>
+                <p class="desc">儿童房装修是很多业主非常关注的热点话题，家长们都希望通过健康...</p>
+                <p class="url ar"><a href="/detail/34.html">详情 >></a></p>
+            </div>
+        </div><div class="art">
+        	<p class="fl"><a href="/detail/33.html"  title="【切记】家庭装修之十一忌"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd55bd0f59a.jpg" width="145" height="111"  alt="【切记】家庭装修之十一忌"/></a></p>
+          <div class="txt fr">
+            	<h1 class="t"><a href="/detail/33.html"  title="【切记】家庭装修之十一忌">【切记】家庭装修之十一忌</a></h1>
+                <p class="desc">儿童房装修是很多业主非常关注的热点话题，家长们都希望通过健康...</p>
+                <p class="url ar"><a href="/detail/33.html">详情 >></a></p>
+            </div>
+        </div>             
+
+    	
+      <h1 class="t"><a href="/detail/32.html"  title="如何装修才能让宝贝远离污染？">如何装修才能让宝贝远离污染？</a></h1>
+      <p class="desc">儿童房装修是很多业主非常关注的热点话题，家长们都希望通过健康装修为宝贝提供一个安全的成长环...</p>
+      <p class="url ar"><a href="/detail/32.html">详情 >></a></p>    
+    </div>
+  </div>
+  <div class="ijzBox fr">
+  	<ul id="ijzbox">
+		<li><span class="img" style="display:block;"><a href="/detail/25.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799e10dc9313.jpg" height="190"  alt="聚美易家集中开工进行中，恭喜尹先生家开工大吉！"/></a></span>
+		<span class="txt" style="display:none;"><a href="/detail/25.html">聚美易家集中开工进行中，恭喜尹先生家开工</a></span></li>	   <li><span class="img" style="display:none;"><a href="/detail/26.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799e7f43358d.jpg" height="190"  alt="感谢恒大家园刘老师老师选择聚美易家装饰！"/></a></span>
+		<span class="txt" style="display:inline;"><a href="/detail/26.html">感谢恒大家园刘老师老师选择聚美易家装饰！</a></span></li><li><span class="img" style="display:none;"><a href="/detail/24.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799e64bd7f5c.jpg" height="190"  alt="业主张先生选择聚美易家：才华横溢巧设计，精心施工质量优。"/></a></span>
+		<span class="txt" style="display:inline;"><a href="/detail/24.html">业主张先生选择聚美易家：才华横溢巧设计，</a></span></li><li><span class="img" style="display:none;"><a href="/detail/23.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799e6f895e9b.jpg" height="190"  alt="聚美易家开工火爆月，感谢苏先生的信任！"/></a></span>
+		<span class="txt" style="display:inline;"><a href="/detail/23.html">聚美易家开工火爆月，感谢苏先生的信任！</a></span></li><li><span class="img" style="display:none;"><a href="/detail/22.html"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799dfcf2e2dc.jpg" height="190"  alt="于老师选择聚美易家，开始装修旅程！"/></a></span>
+		<span class="txt" style="display:inline;"><a href="/detail/22.html">于老师选择聚美易家，开始装修旅程！</a></span></li>		
+    </ul>
+  </div>
+</div>
+<div class="ibrandLogo col">
+	<div class="timg fl"><img src="/Websites/shenghuojia/Templates/pc_shj/Static/picture/brandt.jpg" width="227" height="163"  alt=""/></div>
+    <div class="itemlist fr">
+          <a href="/detail/50.html" title="东鹏陶瓷"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-30/579c8e42e7e62.jpg" width="117" height="78"  alt="东鹏陶瓷"/></a><a href="/detail/51.html" title="马可波罗瓷砖"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-30/579c8d22924f3.jpg" width="117" height="78"  alt="马可波罗瓷砖"/></a><a href="/detail/52.html" title="摩恩五金"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-30/579c8e796d207.jpg" width="117" height="78"  alt="摩恩五金"/></a><a href="/detail/49.html" title="蒙娜丽莎"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd5aeff0ba2.jpg" width="117" height="78"  alt="蒙娜丽莎"/></a><a href="/detail/47.html" title="汉斯格雅"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd5adddf095.jpg" width="117" height="78"  alt="汉斯格雅"/></a><a href="/detail/46.html" title="toto"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd5ac5ede78.jpg" width="117" height="78"  alt="toto"/></a><a href="/detail/44.html" title="安信地板"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd5aadbe21e.jpg" width="117" height="78"  alt="安信地板"/></a><a href="/detail/43.html" title="生活家·巴洛克"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd5a8fdbc1e.jpg" width="117" height="78"  alt="生活家·巴洛克"/></a><a href="/detail/42.html" title="百得"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd5a775f8b3.jpg" width="117" height="78"  alt="百得"/></a><a href="/detail/41.html" title="倍特橱柜"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd5a60ab634.jpg" width="117" height="78"  alt="倍特橱柜"/></a><a href="/detail/40.html" title="老板"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd5a3e154cc.png" width="117" height="78"  alt="老板"/></a><a href="/detail/39.html" title="科勒"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd5a12eeac1.jpg" width="117" height="78"  alt="科勒"/></a><a href="/detail/38.html" title="圣象地板"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd59fd7829a.jpg" width="117" height="78"  alt="圣象地板"/></a><a href="/detail/37.html" title="阿尔贝娜乳胶漆"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd59c344c34.jpg" width="117" height="78"  alt="阿尔贝娜乳胶漆"/></a>			
+    	 
+    </div>
+</div>
+<script src="/Websites/shenghuojia/Templates/pc_shj/Static/js/jquery.slides.min.js"></script>  
+<script>
+    $(function() {
+      $('#slides').slidesjs({       
+		play:{
+			effect: "fade",
+			auto: true			
+			},
+        navigation: {
+		  active: false,		  
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 400
+          }
+        }
+      });
+	  
+	  $('#slides2').slidesjs({
+        width: 380,
+        height: 350,
+        navigation: false,
+        play: {
+          auto: true
+        }
+      });
+    });
+	
+	$(".cevent").hover(function(){
+		if(!$(this).is(":animated")){
+		$(this).animate({left:"-10px"},300);
+		}
+	},function(){		
+		$(this).animate({left:"0px"},300);
+	});
+  </script>  
+
+	<!-- /主体 -->
+
+	<!-- 底部 -->
+	<div class="ibottomImg">
+    <div class="col"><img src="/Websites/shenghuojia/Templates/pc_shj/Static/picture/bottomimg.jpg" width="1100" height="92"  alt=""/></div>
+</div>
+
+<div class="footer">
+    <div class="col con">
+		<div class="listBox fl">
+            <h1>聚美故事</h1>
+			<ul>
+					<!---二级导航-->
+					<p><a href="/lists/23.html">新闻动态</a></p><p><a href="/page/13.html">聚美简介</a></p><p><a href="/page/15.html">企业文化</a></p><p><a href="/page/16.html">联系我们</a></p>				</ul> 
+        </div>		
+		<div class="listBox fl">
+            <h1>家装知识</h1>
+			<ul>
+					<!---二级导航-->
+					<p><a href="/lists/7.html">家装攻略</a></p><p><a href="/lists/8.html">材料知识</a></p><p><a href="/lists/9.html">家居风水</a></p><p><a href="/lists/10.html">设计知识</a></p>				</ul> 
+        </div>		
+		<div class="listBox fl">
+            <h1>热装小区</h1>
+			<ul>
+					<!---二级导航-->
+					<p><a href="/lists/4.html">在建工地</a></p><p><a href="/lists/5.html">客户见证</a></p><p><a href="/lists/17.html">热门活动</a></p><p><a href="/lists/18.html">视频案例</a></p>				</ul> 
+        </div>        
+        <div class="fl foottel"><img src="/Websites/shenghuojia/Uploads/Picture/2016-07-30/579c8b539071e.png" width="260" height="130"  alt=""/></div>
+        <div class="erweima fr">
+            <div class="weixin fl">
+                <p class="title">官方微信</p>
+                <p>
+
+                    <img src="/Websites/shenghuojia/Uploads/Picture/2016-07-28/5799c58f3b2a4.png" alt="家装公司整装公司" width="100" height="100" />
+                </p>
+            </div>
+            <div class="weibo fl">
+                <p class="title"><a href="http://www.weibo.com/yaomings" target="_blank">官方微博</a></p>
+                <p><a href="http://www.weibo.com/yaomings" target="_blank"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd4c767229b.jpg" width="100" height="100"  alt=""/></a></p>
+            </div>
+            <div class="tmall fl">
+                <p class="title"><a href="www.jumei.com" target="_blank">官方网店</a></p>
+                <p><a href="www.jumei.com" target="_blank"><img src="/Websites/shenghuojia/Uploads/Picture/2016-04-01/56fd4c7bc9b40.jpg" width="100" height="100"  alt=""/></a></p>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="links ac">友情链接：
+			<a href="http://www.jmejzs.com/" title="华纳立家官网" target="_blank">华纳立家官网</a>|<a href="http://home.focus.cn/msglist/3648/elite_list.php?order=1" title="姚铭论坛" target="_blank">姚铭论坛</a>|<a href="http://www.zifengzs.com" title="紫峰高端设计" target="_blank">紫峰高端设计</a>|   
+		</div>
+        <div class="copyright ac">
+           
+			北京市朝阳区东四环小武基汽配城东200米  京ICP备16019365号-1             <script type=\\\\\\\\\\\\\\\"text/javascript\\\\\\\\\\\\\\\" charset=\\\\\\\\\\\\\\\"utf-8\\\\\\\\\\\\\\\" src=\\\\\\\\\\\\\\\"http://lead.soperson.com/10039724/10064320.js\\\\\\\\\\\\\\\"></script>		</div>
+		<div class="copyright ac jishuzhichi">
+			技术支持:<a href="http://www.xbjianzhan.com/" title="成都网站建设">成都网站建设</a><a href="http://www.xbjianzhan.com/" title="成都网站建设">龙兵科技</a>
+		</div>
+    </div>
+</div>
+<!-- <div class="qqbox">
+    <div class="head"></div>
+    <div class="qqbd">
+
+		<a title='聚美易家' class='Sqq' href='http://wpa.qq.com/msgrd?v=3&uin=413731561&site=qq&menu=yes' target='_blank'>
+            <img border='0' alt='聚美易家' src='/Websites/shenghuojia/Templates/pc_shj/Static/images/qq.gif'>
+            <font>聚美易家</font>
+        </a>		
+    </div>
+    <div class="footbg"></div>
+</div> -->
+
+
+<script type="text/javascript" src="/Websites/shenghuojia/Templates/pc_shj/Static/js/js.js"></script>
+<script>
+    $(document).ready(function(e) {
+
+        $("#anshowbtn").hover(function(){
+            $("#caseItemBox").show();
+        },function(){
+            $("#caseItemBox").hide();
+        });
+
+    });
+</script>
+ <script type="text/javascript" charset="utf-8" src="http://lead.soperson.com/10039724/10064320.js"></script>
+</body>
+
+	<!-- /底部 -->
+    
+</div>
+</body>
+</html>

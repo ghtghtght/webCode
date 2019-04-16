@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鞋仓-鞋仓实体店</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="description" content="鞋仓-社交共享新零售平台，大牌品质 价格更亲民，自买省分享赚 ">
+    <meta name="keywords" content="鞋仓，一部手机闯天下，上鞋仓在家就能赚钱，并有海量商品文案、一键铺货、一件代发、专属客服等特色服务。加入鞋仓超级代理会员，买卖都获得奖励，奖励高达20%——30%，成交就挣钱，轻松拥有海量正品货源。">
+    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/my_style.css" rel="stylesheet" type="text/css">
+    <!--<script src="js/jquery-1.7.1.min.js"></script>-->
+    <script src="js/jquery.js"></script>
+	<script src="js/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+<div class="bgbg"></div>
+<div class="main">
+    <div class="ftop">
+        <div class="main_top">
+            <div class="main_topb">
+                <a class="logo im10" href="index.html"><img src="icon/logo.png" alt="logo"/></a>
+                <div class="menu">
+                    <ul>
+                        <a class="close"></a>
+                        <li><a class="" href="index.html">首页</a></li>
+                        <li>
+                            <a href="merchants.html">品类招商</a>
+                            <!--<ul>
+                                <li><a href="about.html">企业介绍</a></li>
+                                <li><a href="news.html">新闻中心</a></li>
+                                <li><a href="">电子刊物</a></li>
+                                <li><a href="contact.html">联系我们</a></li>
+                            </ul>-->
+                        </li>
+                        <li><a href="store.html">鞋仓实体店</a></li>
+                        <li><a href="http://www.xiecang.com/goods/appList?isNew=1"  target="view_window">新品</a></li>
+                        <li><a href="aboutUs.html">关于我们</a></li>
+                        <li><a href="help.html">帮助中心</a></li>
+                    </ul>
+                </div>
+                <!--<div class="tblang"><a class="on1" href="#">中文</a><a href="#">ENG</a></div>-->
+                <a class="m_mebb"></a>
+                <!--<a href="#" class="m_sous"></a>-->
+            </div>
+        </div>
+    </div>
+    <div class="banner4 category_banner">
+        <div class="banner">
+            <section class="swiper-container swiper-container1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#1"><img src="icon/news/news_banner.png"></a></div>
+                    <!--<div class="swiper-slide"><a href="#2"><img src="icon/banner2.png"></a></div>-->
+                    <!--<div class="swiper-slide"><a href="#3"><img src="icon/banner2.png"></a></div>-->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-white"></div>
+                <!-- Add Navigation -->
+                <!--<div class="swiper-button-prev swiper-button-white"></div>-->
+                <!--<div class="swiper-button-next swiper-button-white"></div>-->
+            </section>
+            <!-- Initialize Swiper -->
+            <!--轮播-->
+            <!--<script>
+                var swiper = new Swiper('.swiper-container1', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    nextButton: '.swiper-button-next',
+                    prevButton: '.swiper-button-prev',
+                    parallax: true,
+                    speed: 800,
+                    autoplay:2000,
+                });
+            </script>-->
+        </div>
+    </div>
+    <!--<div class="line">
+    	<div class="mbcpb pblk"><img src="icon/news/news_enter.png"/></div>
+    </div>  -->
+	<div class="title_left">
+    	<p><span>新闻中心/</span><span>NEWS CENTER</span></p>
+    </div> 
+	
+  	<!--新闻详情-->
+  	<div ng-app="myApp" class="mbcp im20" style="background-color: #f5f5f5;">
+	    <div class="mbcpb pblk newDetail" ng-controller="myCtrl">
+	    	<h3 class="title">{{detail.detail.title}}</h3>
+	    	<p class="time">{{detail.detail.time}}</p>
+	    	<!--<section>{{detail.detail.text1}}</section>
+			<div>
+				<img src="icon/news/detail1_1.png"/>
+			</div>
+			<section class="noPadding">{{detail.detail.text2}}</section>
+			<section>{{detail.detail.text3}}</section>
+	    	<div>
+				<img src="icon/news/detail1_2.png"/>
+			</div>
+			<section>{{detail.detail.text4}}</section>-->
+			
+			<div ng-repeat="item in detail.detail.text" ng-class="{active: item.type == 2}">
+				<section ng-if="item.type ==1">{{item.text}}</section>
+				<h2 ng-if="item.type ==3">{{item.text}}</h2>
+				<img ng-if="item.type ==2" src="icon/news/{{item.text}}.png" alt="" />
+				<p ng-if="item.type ==4">{{item.text}}</p>
+			</div>
+	    	<div class="other_detail">
+	    		<div class="prev">上一篇：<a href="newsDetail.html?page={{prevPage}}&num={{prevNum}}">{{prev.detail.title}}</a></div>
+	    		<div class="next">下一篇：<a href="newsDetail.html?page={{nextPage}}&num={{nextNum}}">{{next.detail.title}}</a></div>
+	    	</div>
+	    </div>
+	</div>
+	<script>
+			var app = angular.module("myApp", []);
+			app.controller("myCtrl", function($scope,$http,$location) {
+				$scope.data=1111
+				$http.get('json/data1.json').success(function(response){
+		            console.log(response);
+//		            		获取详情页码/顺序
+		            function getQueryString(name) {  
+				        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");  
+				        var r = window.location.search.substr(1).match(reg);  
+				        if (r != null) return unescape(r[2]);  
+				        return null;  
+				    }  
+   					$scope.page = getQueryString("page");
+				    $scope.num = getQueryString("num");
+				    
+		            console.log("第"+$scope.page+"页","第"+$scope.num+"几个");
+		            $scope.detail = response[$scope.page].content[$scope.num];
+					
+					if($scope.page!=1 && $scope.page!=response.length){
+						if($scope.num ==0){
+							$scope.prev = response[$scope.page*1-1].content[3];
+							$scope.prevPage = $scope.page*1-1;
+							$scope.prevNum = 3 
+							$scope.next = response[$scope.page].content[$scope.num*1+1];
+							$scope.nextPage = $scope.page;
+							$scope.nextNum = $scope.num*1+1;
+						}else if($scope.num ==3){
+							$scope.prev = response[$scope.page].content[2];
+							$scope.prevPage = $scope.page;
+							$scope.prevNum = 2
+							
+							$scope.next = response[$scope.page*1+1].content[0];
+							$scope.nextPage = $scope.page*1+1;
+							$scope.nextNum = 0;
+						}else{
+							$scope.prev = response[$scope.page].content[$scope.num*1-1];
+							$scope.prevPage = $scope.page;
+							$scope.prevNum = $scope.num*1-1;
+							
+							$scope.next = response[$scope.page].content[$scope.num*1+1];
+							$scope.nextPage = $scope.page;
+							$scope.nextNum = $scope.num*1+1;
+						}
+					}else if($scope.page==1){
+						if($scope.num ==0){
+							$scope.prev = '';
+							$scope.prevPage = '';
+							$scope.prevNum = '';
+
+							$scope.next = response[$scope.page].content[$scope.num*1+1];
+							$scope.nextPage = $scope.page;
+							$scope.nextNum = $scope.num*1+1;
+						}else if($scope.num ==3){
+							$scope.prev = response[$scope.page].content[$scope.num*1-1];;
+							$scope.prevPage = $scope.page;
+							$scope.prevNum = $scope.num*1-1;
+							
+							$scope.next = response[$scope.page*1+1].content[0];
+							$scope.nextPage = $scope.page*1+1;
+							$scope.nextNum = 0;
+						}else{
+							$scope.prev = response[$scope.page].content[$scope.num*1-1];
+							$scope.prevPage = $scope.page;
+							$scope.prevNum = $scope.num*1-1;
+							
+							$scope.next = response[$scope.page].content[$scope.num*1+1];
+							$scope.nextPage = $scope.page;
+							$scope.nextNum = $scope.num*1+1;
+						}
+					}else{
+						
+					}
+		        }).error(function(response){
+		            console.log(response);
+		        })
+		    })
+	</script>
+	<div class="clear"></div>
+	<!--底部-->
+	<div class="mbcp im20" style="background-color: #ff2e2e;">
+	    <div class="mbcpb pblk remarks footer" style="height: 70px;position: relative;overflow: visible;">
+			<div class="footer_content">
+				<p><a href="news.html">新闻中心</a></p>
+				<!--<p style="margin-left: 50px;"><a href="">加入我们</a></p>-->
+			</div>
+			<div class="footer_content">
+				<p>@2018 成都鞋仓网信息科技有限公司</p>
+				<p style="margin-left: 120px;">网站备案号：川ICP备12005806号</p>
+			</div>
+			<div  class="ttt1 topScroll" style="cursor: pointer"><img src="icon/topScroll.png" alt="" /></div>
+	    </div>
+	</div>    	
+</div>
+</body>
+</html>
+

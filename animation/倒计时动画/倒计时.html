@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+		<style>
+			#countDown{
+				width: 500px;
+				height: 500px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div id="countDown" ></div>
+		
+	</body>
+	<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+
+	function Countdown(allTime){
+		this.allTime = allTime//总时间
+		this.unit =  this.allTime%10//个位数
+		this.decade = Math.floor(this.allTime/10) //十位数
+		this.allTimeInterval ='' //总时间定时器
+		this.Num = 10;
+		this.init = function(){
+			this.unitSrc = 'img/' +this.unit + '-10.png'
+			this.decadeSrc = 'img/' + this.decade + '-10.png'
+			$('#countDown').append('<img id="decade" src="'+this.decadeSrc+'" >')
+			$('#countDown').append('<img id="unit" src="'+this.unitSrc+'" >')
+		}
+		this.startCountdown = function(){
+				this.startTime =  new Date().getTime()/1000;
+				this.allTimeInterval = setInterval(()=>{
+					this.Num = this.Num -1;
+					this.currentTiem = new Date().getTime()/1000;
+					this.unitSrc = 'img/' +this.unit + '-'+ this.Num +'.png';
+					this.decadeSrc = 'img/' + this.decade + '-'+ this.Num +'.png';
+					if(this.allTime > -1){
+								if((this.currentTiem- this.startTime) > 1){
+										this.Num = 10;
+										if(this.unit > 0){
+											this.unit = this.unit - 1;
+										}else{
+											this.decade = this.decade - 1;
+											this.unit = 9;
+										}
+										this.unitSrc = 'img/' +this.unit + '-'+ this.Num +'.png';
+										this.decadeSrc = 'img/' + this.decade + '-'+ this.Num +'.png';
+										if(this.Num > 0 && this.unit >= 0 && this.decade >= 0){
+											window.requestAnimationFrame(() => {
+												$('#decade').attr({
+															src:this.decadeSrc
+														})
+												$('#unit').attr({
+																src:this.unitSrc
+												})
+											})
+										}
+										this.allTime = this.allTime - 1;
+										this.startTime = this.startTime + 1;
+								}
+						if(this.Num > 0 && this.unit >= 0 && this.decade >= 0){
+							window.requestAnimationFrame(() => {
+								$('#decade').attr({
+											src:this.decadeSrc
+										})
+								$('#unit').attr({
+												src:this.unitSrc
+								})
+							})
+						}
+					} else {
+							
+							clearInterval(this.allTimeInterval);
+							clearInterval(this.unitInterval);
+							clearInterval(this.decadeInterval);
+							$('#countDown').remove()	
+					}
+				},1000/10)
+		}
+	}
+	for (var i = 0; i < 100000; i++) {
+		console.log(i)
+	}
+	var countdown =  new Countdown(10);
+					 countdown.init()
+					 countdown.startCountdown()
+
+	</script>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="高海涛">
+        <title>小米商城</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="Shortcut Icon" href="images/favicon.ico">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="mi.html"><img src="images/ios.png" alt=""></a>
+            <span><a href=""><img src="images/top-x.png" alt=""></a></span>
+        </header>
+        <div class="search"><a href="search.html"><img src="images/search.png" alt="">搜索商品名称</a></div>
+        <div class="focus  banner">
+	<div class="images">
+        <div class="item"><img src="images/ban1.jpg" /></div>
+    	<div class="item"><img src="images/ban2.jpg" /></div>
+    	<div class="item"><img src="images/ban3.jpg" /></div>
+        <div class="item"><img src="images/ban4.jpg" alt=""></div>
+        <div class="item"><img src="images/ban5.jpg" alt=""></div>
+    </div>
+    </div>
+    <div class="pro">
+    <section class="pro_pic">
+        <ul>
+            <li><a href="catalogue.html"><img src="images/pic1.jpg" alt=""></a></li>
+            <li><a href="catalogue.html"><img src="images/pic2.jpg" alt=""></a></li>
+            <li><a href="catalogue.html"><img src="images/pic3.jpg" alt=""></a></li>
+            <li><a href="catalogue2.html"><img src="images/pic4.jpg" alt=""></a></li>
+            <li><a href="catalogue2.html"><img src="images/pic5.jpg" alt=""></a></li>
+            <li><a href="catalogue2.html"><img src="images/pic6.jpg" alt=""></a></li>
+        <a href="catalogue.html"><img src="images/e4064cc2-b26b-a3ad-d9db-6f12fe644759.jpg" alt=""></a>
+       </ul>
+   </section>
+   <div class="clear"></div>
+   </div>
+    <main>
+        <section class="main">
+             <a href="catalogue2.html" target="black">
+                 <img src="images/xp.png" alt="">
+                 <h3>小米多功能网关</h3> 
+                 <p>畅听网络电台直播 / 1600万色夜灯 / 自定义铃声 / 手机远程控制</p>   
+                 <span>149元</span>
+             </a>  
+        </section>
+        <section class="main">
+             <a href="catalogue2.html" target="black">
+                 <img src="images/tj.png" alt="">
+                 <h3>分体电视</h3> 
+                 <p>分体电视 全金属轻薄机身 / 次世代分体电视</p>   
+                 <span>3299元 起</span>
+             </a>  
+        </section>
+        <section class="main">
+             <a href="catalogue2.html" target="black">
+                 <img src="images/yzp.png" alt="">
+                 <h3>小米多功能网关</h3> 
+                 <p>畅听网络电台直播 / 1600万色夜灯 / 自定义铃声 / 手机远程控制</p>   
+                 <span>149元</span>
+             </a>  
+        </section>
+        <section class="main">
+             <a href="catalogue2.html" target="black">
+                 <img src="images/by.png" alt="">
+                 <h3>小米多功能网关</h3> 
+                 <p>畅听网络电台直播 / 1600万色夜灯 / 自定义铃声 / 手机远程控制</p>   
+                 <span>149元</span>
+             </a>  
+        </section>
+        <section class="main">
+             <a href="catalogue2.html" target="black">
+                 <img src="images/baoyou.png" alt="">
+                 <h3>小米多功能网关</h3> 
+                 <p>畅听网络电台直播 / 1600万色夜灯 / 自定义铃声 / 手机远程控制</p>   
+                 <span>149元</span>
+             </a>  
+        </section>
+        <section class="main">
+             <a href="catalogue2.html" target="black">
+                 <img src="images/" alt="">
+                 <h3>小米多功能网关</h3> 
+                 <p>畅听网络电台直播 / 1600万色夜灯 / 自定义铃声 / 手机远程控制</p>   
+                 <span>149元</span>
+             </a>  
+        </section>
+        <div class="clear"></div>
+        <div class="foot">
+            <div><img src="images/foot.jpg" alt=""></div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href=""><span></span><br>商城</a></li>
+            <li><a href="fenlei.html" target="black"><span></span><br>分类</a></li>
+            <li><a href="gouwuche.html" target="black"><span></span><br>购物车</a></li>
+            <li><a href="fuwu.html" target="black"><span></span><br>服务</a></li>
+        </ul>
+    </footer>
+    </body>
+<html>
+<script>
+$(function(){
+	$('.images .item:first, .control span:first, .title p:first').addClass('active');
+	var index = 0,
+		len = $('.images .item').length;
+		autoPlay = function(){
+			$('.images .item').eq(index++).addClass('active').siblings('.item').removeClass('active');
+			$('.title p').eq(index-1).addClass('active').siblings('p').removeClass('active');
+			$('.control span').eq(index-1).addClass('active').siblings('span').removeClass('active');
+			if(index == len){index = 0;}
+		},
+		loop = setInterval(autoPlay,3000);
+	$('.control span').hover(function(){
+		index = $(this).index();
+		autoPlay();
+		clearInterval(loop);
+	},function(){
+		loop = setInterval(autoPlay,3000);
+	})
+})
+</script>    

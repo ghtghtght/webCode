@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="高海涛">
+        <title>美品汇</title>
+        <style>
+              *{
+                  margin: 0;
+                  padding: 0;
+              }
+              li{
+                  list-style: none;
+              }
+              a{
+                  text-decoration: none;
+                  color: #000;
+              }
+              section{
+                  width: 35px;
+                  height: 945px;
+                  background-color: #262626;
+                  position: fixed;
+                  right: 0;
+                  /*top: 120px;*/
+                  padding-top:180px;
+                  
+              }
+              section a {
+                  display: inline-block;
+                  font-size: 14px;
+                  color: aliceblue;
+                   width: 35px;
+                   margin-left: 0;
+                   margin-right: 0;
+                    height: 80px;
+                    text-align: center;
+              }
+              section a:hover{
+                      background-color: red;
+              }
+              section:nth-child(2){
+                  position: fixed;
+                  /*top: 400px;*/
+                  left: 220px;
+                  width: 83px;
+                  height: 490px;
+                  border: 1px solid #ccc;
+                  background-color: #fff;
+                  padding-top: 0;
+                  margin-top: 115px;
+              }
+              section:nth-child(2) a {
+                   color: #262626;
+                    border-bottom: 1px solid #ccc;
+
+                   /*display: inline-block;*/
+                  font-size: 14px;
+                  /*color: aliceblue;*/
+                   width: 67px;
+                   margin-left: 0;
+                   margin-right: 0;
+                    height: 38px;
+                     padding-left: 8px;
+                    text-align: center;
+              }
+              section:nth-child(2) a:hover{
+                       background-color: #fff;
+                       color: red
+              }
+              .clear{
+                  clear: both;
+              }
+            head{
+                text-align: center;
+                margin:  0 auto;
+            }
+            .top_nav{
+                height: 30px;
+                background-color: #f5f5f5;
+                color: #ccc;
+            }
+            header nav .top_nav_main{ 
+                width: 1200px;
+                margin: 0 auto;
+                line-height: 30px;
+            }
+             header nav .top_nav_main a{
+                font-size: 14px;
+                color:gray;
+             } 
+              header nav .top_nav_main a:hover{
+                  color: red;
+              }
+            header nav .top_nav_mainleft{
+                         float: left;
+                }
+             header nav .top_nav_mainleft::after{
+                 content: '           ▽';
+             }    
+                header nav ul{
+                    padding-left: 500px;
+                }
+                header nav ul li {
+                    border-right: 1px solid grey;
+                }
+                header nav ul li:nth-child(8){
+                    border-right: none;
+                }
+            header nav ul li{
+                margin-left: 22px;
+                float: left;
+                
+            }
+            .head_logo{
+                width: 1200px;
+                margin: 0 auto;
+                position: relative;
+            }
+             .head_logo_left_l img{
+                   width: 270px;
+                   height: 78px;
+             }
+            .head_logo_left_r{
+                float: right;
+                padding-right: 180px;
+                position: relative;
+            }
+            .head_logo_left_r img{
+                width: 126px;
+                height: 100px; 
+            }
+            .head_logo_left_r a:nth-child(4){
+                position: absolute;
+                margin-top: 35px;
+                margin-right: 30px;
+                border: 1px solid pink;
+            }
+             .head_logo_left_r a:nth-child(4):hover{
+                 color: red;
+             }
+             .nav_main{
+                 /*width: 100%;*/
+                 background-color: #f10180;
+                 height: 43px;
+             }
+             .daohang{
+                 /*text-align: center;*/
+                 width: 1200px;
+                 margin: 0 auto;
+                 height: 43px;
+                 /*padding-top: 0px;*/
+                  /*margin-left: 300px;*/
+             }
+            
+             .nav_main ul li{
+                 /*width: 1200px;*/
+                 float: left;
+                 padding-left: 43px;
+             }
+              .daohang   a{
+                  line-height: 43px;
+                  text-align: center;
+                   color: #f5f5f5;   
+              }
+              .daohang li:hover{
+                    background-color: #b01d67;
+              }
+              .daohang span{
+                  padding-left: 180px;
+              }
+              .banner {
+                  background-image: url(image/banner.jpg); 
+                  /*background-image: 1100px 400px;*/
+                  height: 505px;
+              }
+              .banner img{
+                    width: 1120px;
+                    height: 405px;
+                 margin-left: 400px;
+                  margin-top: 58px;
+                  border: 1px solid #ccc;
+              }
+              .banner_text {
+                  padding-left: 610px;
+              }
+              .banner_text span{
+                  margin-left: 80px;
+                  padding-left: 10px;
+              }
+              .banner_text span:hover{
+                  color: #ccc;
+                  border-bottom: 3px solid #e6057d;
+              }
+              main{
+                
+                  width: 1300px;
+                  margin: 0 auto;
+              }
+              main header img{
+                    margin-top: 50px; 
+                    position: relative;
+              }
+              main header a{
+                  text-align: center;
+                  width: 90px;
+                  position: absolute;
+                  right: 910px;
+                  /*bottom:-217px;*/
+                  background-color: #f1018d;
+                  margin-top: 108px;
+              }
+              .jingxuan{
+                  height: 870px;
+              }
+               .jingxuan img{
+                       float: left;
+                       padding: 35px;
+              } 
+             
+        </style>
+    </head>
+    <body>
+        <section>
+                  <a href=""><span>账号</span></a>
+                  <a href=""><span>劵</span></a>
+                  <a href=""><span>品牌</span></a>
+                  <a href=""><span>商品</span></a>
+                  <a href=""><span>购物袋</span></a>
+        </section>
+        <section>
+              <a href=""><span>精选</span></a>
+              <a href=""><span>女装</span></a>
+              <a href=""><span>鞋包</span></a>
+              <a href=""><span>男士</span></a>
+              <a href=""><span>运动</span></a>
+              <a href=""><span>饰品</span></a>
+              <a href=""><span>美妆</span></a>
+              <a href=""><span>母婴</span></a>
+              <a href=""><span>居家</span></a>
+              <a href=""><span>国际</span></a>
+              <a href=""><span>生活</span></a>
+              <a href=""><span>预告</span></a>
+
+        </section>
+          <header>
+                <nav class="top_nav">
+                     <div class="top_nav_main">
+                         <div class="top_nav_mainleft"><a href="">河南</a></div>
+                         <ul>
+                             <li><a href="">请登录</a></li>
+                             <li><a href="">注册</a></li>
+                             <li><a href="">我的订单</a></li>
+                             <li><a href="">我的收藏</a></li>
+                             <li><a href="">会员俱乐部</a></li>
+                             <li><a href="">客户服务</a></li>
+                             <li><a href="">手机版</a></li>
+                             <li><a href="">更多</a></li>
+                         </ul>
+                     </div> 
+                </nav>
+                <div class="clear"></div>
+                <div class="head_logo">
+                       <div class="head_logo_left">
+                           <span class="head_logo_left_l"><a href=""><img src="image/logo2.png" alt=""></a> 
+                            </span>
+                       <span class="head_logo_left_r">
+                          <a href=""><img src="image/logo1.png" alt=""></a> 
+                           <a href=""><img src="image/logo3.png" alt=""></a> 
+                           <a href=""><img src="image/logo4.png" alt=""></a> 
+                           <a href="">我的购物袋</a>
+                       </span>
+                       </div>
+                </div>
+                <div class="clear"></div>
+               
+                        <div class="nav_main">
+                            <ul  class="daohang">
+                                <li><a href="">首页</a></li>
+                                <li><a href="">唯品国际</a></li>
+                                <li><a href="">母婴</a></li>
+                                <li><a href="">居家</a></li>
+                                <li><a href="">男士</a></li>
+                                <li><a href="">美妆</a></li>
+                                <li><a href="">融唯品金</a></li>
+                                <li><a href="">旅行</a></li>
+                                <li><a href="">更多</a></li>
+                                <li><a href="">预告</a></li>
+                                <!--<li><a href="">分类</a></li>-->
+                                <span><a href="">分类</a></span>
+                            </ul>  
+                </div>      
+        </header> 
+            <div class="clear"></div>
+         <div class="banner">
+                         <div><a href=""><img src="image/top banner.jpg" alt=""></a></div> 
+                          <div class="banner_text"><a href=""><span>今日特惠大牌</span></a>
+                          <a href=""><span>清凉面膜 最高满199减50</span></a>
+                          <a href=""><span>美妆单品top榜</span></a></div> 
+          </div> 
+       
+       <main>
+            <header>
+                    <div><img src="image/maintop.png" alt="">   
+                        <a href=""><span>马上刷新</span></a>
+                     </div>
+            </header>
+         <div class="main">
+               <div class="jingxuan">
+                             <div class="one"><img src="image/jxone.jpg" alt="">
+                                       <!--<img src="image/jxone1.jpg" alt="">-->
+                             </div>
+                             <div class="two"><img src="image/jxtwo.jpg" alt=""></div>
+                             <div class="three"><img src="image/jxthree.jpg" alt=""></div>
+                             <div class="four"><img src="image/jxfour.jpg" alt=""></div>
+               </div>
+
+         </div>
+       </main>
+    </body>
+<html>
