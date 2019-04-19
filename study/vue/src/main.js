@@ -11,7 +11,7 @@ import home from './components/home'
 import routes from './router'
 
 //定义一个VUE内全局用到的名称（标题）
-Vue.prototype.appName = '宋江贷';
+Vue.prototype.appName = '金融贷款';
 
 //定义路由配置
 const router = new VueRouter({
