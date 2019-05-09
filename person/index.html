@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>ght前端学习点保留</title>
+    <link rel="stylesheet" type="text/css" href="../总结/css/reset.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="../总结/css/main.css" media="all"/>
+</head>
+<body>
+<!--http://1.gitapp.sinaapp.com/base/-->
+<div class="wrap shadow">
+    <ol id="ol" class="list">
+
+    </ol>
+</div>
+<div class="auto welcome none">
+    <p>欢迎加QQ群：327388215 交流</p>
+</div>
+<script type="text/javascript">
+    var str = '',
+        data = [
+            [
+                { title : '第一章 常用网站'},
+                { url : 'http://jikey.cnblogs.com/ ', title : '豪情博客园' },
+                { url : 'https://github.com/jsfront', title : '豪情git仓库' },
+                { url : 'https://www.kancloud.cn/jikeytang/qq/81143', title : '豪情群知识' },
+            ],
+            [
+                { title : '第二章 需要学习的点'},
+                { url : '#', title : 'AJAX 缓存' },
+                { url : 'http://www.typescriptlang.org/docs/handbook/advanced-types.html', title : 'typescript' },
+                { url : 'https://flutterchina.club/get-started/install/', title : 'flutter' },
+                
+            ],
+            [
+                { title : '第三章 git仓库'},
+                { url : 'https://github.com/ghtghtght/webCode.git', title : 'git仓库克隆地址' },
+                { url : 'https://ghtghtght.github.io/webCode/index.html', title : 'ghtghtght  git仓库地址' },                
+            ]
+        ];
+    for(var i = 0; i < data.length; i++){
+        var items = data[i];
+        var sub = '';
+        for(var j=0; j<items.length; j++){
+            var son = items[j];
+            if(j == 0){
+                sub += '<li><h1><a href="javascript:;" title="' + son.title + '">' + son.title + '</a></h1><dl class="sub-dl">';
+            } else {
+                sub += '<dd><a href="' + son.url + '" target="_blank" title="' + son.title + '">' + son.title + '</a></dd>';
+            }
+            if(j == items.length - 1){
+                sub += '</dl></li>';
+            }
+        }
+        str += sub;
+    }
+    var ol = document.getElementById('ol');
+    ol.innerHTML = str;
+    var h1 = ol.getElementsByTagName('h1');
+    var dl = ol.getElementsByTagName('dl');
+    var tmp = -1;
+    var open = false;
+    for(var i=0; i < h1.length; i++){
+        h1[i].index = i;
+        h1[i].onclick = function(){
+            for(var i=0; i<h1.length; i++){
+                dl[i].style.display = 'none';
+            }
+            if(tmp == this.index && open){
+                dl[this.index].style.display = 'none';
+                open = false;
+            } else {
+                dl[this.index].style.display = 'block';
+                open = true;
+            }
+            tmp = this.index;
+        }
+    }
+
+</script>
+</body>
+</html>
