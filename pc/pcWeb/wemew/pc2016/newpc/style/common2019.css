@@ -1,0 +1,645 @@
+body {
+    min-width: 1200px;
+    overflow-x: auto;
+    height: 100%;
+    padding-top: 84px;
+    *padding-top: 68px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: rgb(244, 244, 244);
+}
+body{
+    -moz-transform-origin: 0 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "思源黑体", '微软雅黑';
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333;
+}
+
+html {
+    overflow: auto;
+    -webkit-text-size-adjust: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -ms-user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -ms-user-select: none;
+    outline: none;
+}
+
+a:link {
+    color: #666
+}
+
+a:visited {
+    color: #333
+}
+
+b {
+    font-size: inherit;
+    color: inherit;
+}
+
+.bold {
+    font-weight: 700
+}
+
+img {
+    border: none;
+    border: 0;
+}
+
+.clearB {
+    clear: both;
+}
+
+.table {
+    display: table;
+}
+
+.tableSpan {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.row div.clearMargin {
+    margin: 0
+}
+
+ul,
+li {
+    list-style: none
+}
+
+.f0 {
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.98);
+    *background-color: rgb(51, 51, 51);
+    height: 68px;
+    top: 0;
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+    z-index: 99;
+    zoom: 1.24!important;
+    -webkit-transform: none!important;
+            transform: none!important;
+}
+@media screen and (max-width:1500px){
+    .header{
+        zoom: 1!important;
+    }
+    body{
+        padding-top: 68px;
+    }
+}
+.header>.inner {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header>.inner .logoBar {
+    position: relative;
+    float: left; *zoom:1;*display:inline;
+    *float: left;
+    _float: left;
+    width: 100px;
+    height: 36px;
+    -webkit-transform: translateY(16px);
+            transform: translateY(16px);
+    *margin-top:16px;
+    _margin-top:16px;
+    background: url("../newpc/icons/logo.png") no-repeat 0 0;
+    margin-right: 195px;
+    *margin-right: 95px;
+    _margin-right: 95px;
+}
+
+.header>.inner>.headerList {
+    position: relative;
+    float: left;
+    *zoom:1;
+    *display:inline;
+    left: 0;
+    top: 0;
+    *float: left;
+}
+
+.header>.inner>.headerList .navHead {
+    margin: 0 20px;
+}
+
+.header>.inner>.headerList .navHead a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 68px;
+}
+
+.rede5 {
+    color: #E5156A !important;
+}
+
+.header>.inner .telPhone {
+    float: left; *zoom:1;*display:inline;
+    width: 128px;
+    height: 100%;
+    line-height: 68px;
+    margin-left: 40px;
+    font-size: 12px;
+    text-indent: 26px;
+    background: url("../newpc/icons/hotline.png") no-repeat 0 center;
+    *float: left;
+}
+
+.header>.inner .loginBtn {
+    position: relative;
+    float: left;
+    *zoom:1;*display:inline;
+    outline: none;
+    margin-top:16px;
+    margin-left: 10px;
+    border: 1px solid rgba(229, 21, 106, 1);
+    *border: 1px solid rgb(229, 21, 106);
+    background: none;
+    font-size: 14px;
+    padding: 6px 20px;
+    cursor: pointer;
+    *margin-top:16px;
+    *float: left;
+}
+
+.banner.halfheight img {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.98);
+    *background-color: rgb(51, 51, 51);
+    height: 180px;
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+   *overflow: hidden;
+}
+
+.footer>.inner {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    *padding-top: 0;
+    *margin-top:60px;
+    *height:auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.footer>.inner .footerDetail {
+    line-height: 24px;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* .halfheight.banner{
+    height: 400px;
+    background:#7DF2C3;
+} */
+.mainContainer {
+    width: 100%;
+    min-height: 1600px;
+    background: rgb(244, 244, 244);
+    position: relative;
+    padding-bottom: 80px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.mainContainer .wrapper {
+    position: absolute;
+    width: 1200px;
+    *width:800px;
+    min-height: 1600px;
+    background-color: #fff;
+    top: -80px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    *margin-left:-600px;
+    padding: 0 200px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    
+}
+.mainContainer .wrapper .titleBox {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+    *border-bottom: 1px solid rgb(33, 33, 33);
+}
+
+.mainContainer .wrapper .titleBox .title {
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.mainContainer .wrapper .titleBox .title_e {
+    display: block;
+    font-size: 14px;
+    color: #999999;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.videoCover {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.8);
+    *background: rgb(0, 0, 0);
+    display: none;
+}
+
+/* .wemewVCR {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 30;
+} */
+
+.videoCloseText {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+#imgBox {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.8);
+    *background: rgba(0, 0, 0);
+    display: none;
+}
+
+#imgBox img {
+    position: absolute;
+    max-width: 90%;
+    max-height: 90%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    *left:0;
+    *top:0;
+    *right:0;
+    *bottom:0;
+    *margin:auto;
+    z-index: 30;
+}
+
+#imgBox .CloseText {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.bigVideoBox {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.8);
+    *background: rgba(0, 0, 0);
+    display: none;
+}
+
+.bigVideoBox .videoContainer {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    *left:0;
+    *top:0;
+    *right:0;
+    *bottom:0;
+    *margin:auto;
+    z-index: 30;
+}
+.bigVideoBox .videoContainer .wemewVCR{
+    width: 100%;
+}
+.videoContainer .closeBtn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 31;
+    right: 0px;
+    top: -35px;
+    border:none;
+    outline: none;
+    background: url("../newpc/icons/videoClose.png") no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+/* .bigVideoBox .CloseText {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+} */
+
+.bw {
+    max-height: 200px;
+}
+
+.bh {
+    max-width: 200px;
+}
+
+.toolsBar {
+    position: fixed;
+    right: 5%;
+    bottom: 130px;
+    width: 100px;
+    height: 400px;
+    z-index: 50;
+    display: none;
+    -webkit-box-shadow:  5px 15px 30px rgba(0,0,0,0.2);
+    box-shadow:  5px 15px 30px rgba(0,0,0,0.2);
+    *-webkit-box-shadow:  5px 15px 30px rgb(0,0,0);
+    *        box-shadow:  5px 15px 30px rgb(0,0,0);
+    *display:none!important;
+}
+
+/* #backTop {
+    opacity: 0;
+} */
+
+.toolsBar .listItem {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    *border-bottom: 1px solid rgb(0, 0, 0);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 14px;
+    color: #999;
+    line-height: 154px;
+    text-align: center;
+    background-size: 22px 22px;
+    position: relative;
+}
+
+.toolsBar .listItem:first-child {
+    background: url("../newpc/icons/backTopIcon.png") no-repeat center 40px;
+    background-color: #fff;
+}
+
+.toolsBar .listItem:nth-child(2) {
+    background: url("../newpc/icons/downloadIcon.png") no-repeat center 40px;
+    background-color: #fff;
+}
+
+.toolsBar .listItem:nth-child(3) {
+    background: url("../newpc/icons/weixinIcon.png") no-repeat center 40px;
+    background-color: #fff;
+}
+
+.toolsBar .listItem:nth-child(4) {
+    background: url("../newpc/icons/kefuIcon.png") no-repeat center 40px;
+    background-color: #fff;
+}
+
+.toolsBar .listItem .hoverTip {
+    width: 150px;
+    height: 160px;
+    padding-right: 20px;
+    position: absolute;
+    left: -150px;
+    top: 0;
+    display: none;
+}
+
+.toolsBar .listItem:nth-child(2) .hoverTip .hoverContainer {
+    width: 130px;
+    height: 160px;
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+            *-webkit-box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+            *        box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+    /* transform: translateY(-50%); */
+    background: url("../newpc/icons/downloadTip.png") no-repeat center 24px;
+    background-color: #fff;
+    background-size: 48px 48px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.toolsBar .listItem:nth-child(3) .hoverTip .hoverContainer {
+    position: absolute;
+    width: 130px;
+    height: 160px;
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+            *-webkit-box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+            *        box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+    left: 0;
+    top: 0;
+    /* transform: translateY(-50%); */
+    background-color: #fff;
+    position: absolute;
+}
+
+.toolsBar .listItem:nth-child(3) .hoverTip img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    *left:0;
+    *top:0;
+    *right:0;
+    *bottom:0;
+    *margin:auto;
+}
+
+.toolsBar .listItem:nth-child(2) .hoverTip a {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    *left:0;
+    *right:0;
+    *margin:auto;
+    width: 100px;
+    height: 34px;
+    color: #fff;
+    font-size: 0;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+.toolsBar .listItem:nth-child(2) .hoverTip a.windows {
+    /* background-color: #FF4B69; */
+    background: url("../newpc/icons/rightWin.png") no-repeat;
+    background-size: 100% 100%;
+    bottom: 47px;
+}
+
+.toolsBar .listItem:nth-child(2) .hoverTip a.mac {
+    /* background-color: #7F47FF; */
+    background: url("../newpc/icons/rightMac.png") no-repeat;
+    background-size: 100% 100%;
+    bottom: 14px;
+}
+
+.triangle {
+    border-left: 10px solid #fff;
+    /* border-right: 10px solid transparent; */
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: 40px;
+    right: -10px;
+    margin-left: -10px;
+}
+
+.triangle:after {
+    content: '';
+    position: absolute;
+    top: -9px;
+    left: 1px;
+    border-left: 10px solid rgba(0, 0, 0, 0.2);
+    *border-left: 10px solid rgb(0, 0, 0);
+    border-top: 10px solid transparent;
+    /* border-right: 10px solid transparent; */
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    margin-left: -10px;
+    z-index: -1;
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+}
+
+/* #YSF-BTN-HOLDER重定义客服按钮样式 */
+#YSF-BTN-HOLDER {
+    max-width: 100px !important;
+    width: 100px !important;
+    height: 100px !important;
+    bottom: 130px !important;
+    /* background: #000000; */
+    right: 5% !important;
+    color: #999 !important;
+}
+
+#YSF-BTN-HOLDER>div,
+#YSF-BTN-HOLDER #YSF-CUSTOM-ENTRY-1 {
+    opacity: 0 !important;
+}
+
+.video_Box {
+    position: relative;
+    cursor: pointer;
+}
+
+.video_Box::before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 50%;
+    top: 50%;
+    background: url("../newpc/icons/play.png") no-repeat center center;
+    background-size: 100% 100%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    *left:0;
+    *top:0;
+    *right:0;
+    *bottom:0;
+    *margin:auto;
+    z-index: 9;
+}
+.brandStory .video_Box::before {
+    left: 3%;
+    bottom: 3%;
+    -webkit-transform: none;
+            transform: none;
+    top: auto;
+}
+body>div{
+    opacity: 0;
+}

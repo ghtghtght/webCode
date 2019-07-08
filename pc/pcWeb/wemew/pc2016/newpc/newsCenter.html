@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>微喵——场景化互动娱乐强者</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="微喵、微猫、大屏互动、互动娱乐、酒吧霸屏、酒吧app、娱乐社交、酒吧社交、酒吧营销、流水提升、场景化互动娱乐">
+    <meta name="description" content="微喵——专注场景化互动娱乐，互动大屏霸屏，合作商家超过36000家，覆盖用户3000万人。">
+    <link rel="shortcut icon" type="image/x-icon" href="https://img.wemew.com/wemew/images/favicon.ico">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?bbcfda495d9cf0463dc64c3b6b0c4187";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script type="text/javascript" src="https://img.wemew.com/wemew/pc2016/js/jquery-1.10.2.min.js"></script>
+    <script src="js/news.js"></script>
+    <script src="js/common2019.js"></script>
+    <link rel="stylesheet" href="style/common2019.css">
+    <link rel="stylesheet" href="style/wm2019.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="baidu-site-verification" content="Bq94fMHJlO">
+</head>
+<style>
+    .mainContainer .wrapper {
+        padding: 0 120px;
+    }
+    .titleBox{
+        *position: relative;
+    }
+    .titleBox .titleList {
+       display: table;
+       margin: 0 auto;
+       *margin-left:350px;
+       /* *position: absolute;
+       *left: 0;
+       *right: 0; */
+    }
+
+    .titleBox .titleList .titleItem {
+        font-size: 16px;
+        line-height: 60px;
+        font-weight: 700;
+        margin-right: 80px;
+        cursor: pointer;
+    }
+
+    .titleBox .titleList .titleItem.active {
+        color: #E5156A;
+        position: relative;
+    }
+
+    .titleBox .titleList .titleItem.active::after {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 2px;
+        left: 50%;
+        top: 50%;
+        background: #E5156A;
+        -webkit-transform: translate(-50%, 15px);
+        transform: translate(-50%, 15px)
+    }
+
+    .titleBox .titleList .titleItem:last-child {
+        margin-right: 0;
+    }
+
+    .newsContainer {
+        margin-top: 80px;
+    }
+
+    .newsContainer .leftBar {
+        float: left;
+        width: 180px;
+    }
+
+    .newsContainer .leftBar .timeItem {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: #999999;
+        margin-bottom: 30px;
+        line-height: 1;
+    }
+
+    .newsContainer .leftBar .timeItem.active {
+        text-indent: -8px;
+        font-size: 18px;
+        color: #333333;
+    }
+
+    .newsContainer .rightBar {
+        width: 720px;
+        float: left;
+    }
+
+    .newsContainer .rightBar .articleItem {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .newsContainer .rightBar .articleItem .imgBox {
+        width: 100%;
+        height: 340px;
+        overflow: hidden;
+    }
+
+    .newsContainer .rightBar .articleItem .imgBox img {
+        width: 100%;
+        /* -webkit-transform: translateY(-15%);
+        transform: translateY(-15%); */
+        /* -webkit-filter: brightness(0.7);
+        filter: brightness(0.7); */
+    }
+
+    .newsContainer .rightBar .articleItem .time {
+        line-height: 1;
+        padding-top: 21px;
+        font-size: 16px;
+        font-weight: 700;
+        padding-bottom: 18px;
+    }
+
+    .newsContainer .rightBar .articleItem .title {
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 1;
+        padding-bottom: 4px;
+    }
+
+    .newsContainer .rightBar .articleItem .des {
+        font-size: 16px;
+        line-height: 30px;
+        color: #333333;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="inner">
+            <a href="/">
+                <div class="logoBar"></div>
+            </a>
+            <div class="headerList">
+                <span class="navHead"><a href="/">首页</a></span>
+                <span class="navHead"><a href="product.html">产品与服务</a></span>
+                <span class="navHead"><a href="customers.html">活动视频</a></span>
+                <span class="navHead"><a href="javascript:void(0);" class="rede5">新闻动态</a></span>
+                <span class="navHead"><a href="helpCenter.html">帮助中心</a></span>
+                <span class="navHead"><a href="aboutUs.html">关于我们</a></span>
+            </div>
+            <span class="telPhone rede5">400-088-9828</span>
+            <a href="/adminLogin"><button class="loginBtn rede5">登录</button></a>
+            <a href="/register"><button class="loginBtn rede5">注册</button></a>
+        </div>
+    </div>
+    <div class="banner halfheight">
+        <img src="newpc/icons/banner_news.png" alt="新闻动态">
+    </div>
+    <div class="mainContainer">
+        <div class="wrapper">
+            <h6 class="titleBox">
+                <div class="titleList">
+                    <span class="titleItem active" data-type='0'>全部新闻</span>
+                    <span class="titleItem" data-type='1'>公司动态</span>
+                    <span class="titleItem" data-type='2'>行业新闻</span>
+                    <!-- <span class="titleItem" data-type='3'>活动新闻</span>
+                    <span class="titleItem" data-type='4'>媒体报道</span> -->
+                </div>
+            </h6>
+            <div class="newsContainer">
+                <div class="leftBar">
+                    <div class="timeItem active" data-type="2019">2019</div>
+                    <!-- <div class="timeItem">2018</div>
+                    <div class="timeItem">2017</div> -->
+                </div>
+                <div class="rightBar">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" style="margin-top:250px;">
+        <div class="inner">
+            <p class="footerDetail">
+                反馈邮箱：class@wemew.cn&nbsp;&nbsp;&nbsp;&nbsp;公司电话：400-088-9828&nbsp;&nbsp;&nbsp;&nbsp;举报投诉：400-088-9828 转 6
+            </p>
+            <p class="footerDetail">中国·四川·成都·天府大道中段·萃华路89号·节能大厦A座24楼&nbsp;&nbsp;成都腾木科技有限公司 </p>
+            <p class="footerDetail">©wemew 2013-2019蜀ICP备17016737号-1</p>
+        </div>
+    </div>
+    <div class="toolsBar">
+            <div class="listItem" id="backTop" onclick="scrollTopTo()">
+                回到顶部
+            </div>
+            <div class="listItem">
+                客户端下载
+                <div class="hoverTip">
+                    <div class="hoverContainer">
+                        <a href="https://www.wemew.com/wemew/app/wemew.rar" class="loadBtn windows">FOR WINDOWS</a>
+                        <a href="https://www.wemew.com/wemew/app/wemew_MACOS.zip" class="loadBtn mac">FOR MAC</a>
+                        <div class="triangle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="listItem">
+                关注我们
+                <div class="hoverTip">
+                    <div class="hoverContainer">
+                        <img src="newpc/icons/erweima_banner.png" alt="二维码">
+                        <div class="triangle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="listItem">
+                在线咨询
+            </div>
+        </div>
+</body>
+<script>
+    var addHeight = function () {
+        var wrapperHeight = $(".wrapper").css("height");
+        $(".mainContainer").css("height", wrapperHeight);
+    }
+    var getNewsDom = function (n) {
+        var _str = "";
+        _str += '<div class="articleItem"><a href="newsDetail.html?id=' + n.id + '&type=' + n.type +
+            '"> <div class="imgBox">';
+        _str += ' <img src="' + n.imgSrcH + '" alt="新闻"></div>';
+        _str += ' <h6 class="time">' + n.time + '</h6>';
+        _str += '<h4 class="title">' + n.title + '</h4>';
+        _str += '<p class="des">' + n.s_des + '</p> </a> </div>';
+        return _str;
+    }
+    $(function () {
+        var _str = ""
+        // news_data.forEach(function (val, i) {
+        //     _str += getNewsDom(val);
+        // })
+        for(var i = 0;i<news_data.length;i++){
+            _str += getNewsDom(news_data[i]);
+        }
+        $('.rightBar').html(_str);
+        $(".titleItem").bind("click", function () {
+            var _type = $(this).attr("data-type");
+            var _str = '';
+            $('.titleItem').removeClass("active");
+            $(this).addClass("active");
+            if (_type == 0) {
+                for(var i = 0;i<news_data.length;i++){
+                    _str += getNewsDom(news_data[i]);
+                }
+            } else {
+                for(var i = 0;i<news_data.length;i++){
+                    if(news_data[i].type == _type){
+                        _str += getNewsDom(news_data[i]);
+                    }
+                }
+            }
+            $('.rightBar').html(_str);
+            addHeight();
+        })
+        addHeight();
+    })
+</script>
+<script src="https://qiyukf.com/script/6a9a5bb87e864d9eacf8fd3c3871d2e4.js"></script>
+</html>
