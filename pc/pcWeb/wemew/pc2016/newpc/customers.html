@@ -1,0 +1,539 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>微喵——场景化互动娱乐强者</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="微喵、微猫、大屏互动、互动娱乐、酒吧霸屏、酒吧app、娱乐社交、酒吧社交、酒吧营销、流水提升、场景化互动娱乐">
+    <meta name="description" content="微喵——专注场景化互动娱乐，互动大屏霸屏，合作商家超过36000家，覆盖用户3000万人。">
+    <link rel="shortcut icon" type="image/x-icon" href="https://img.wemew.com/wemew/images/favicon.ico">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?bbcfda495d9cf0463dc64c3b6b0c4187";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script type="text/javascript" src="https://img.wemew.com/wemew/pc2016/js/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="style/common2019.css">
+    <link rel="stylesheet" href="style/wm2019.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="baidu-site-verification" content="Bq94fMHJlO">
+    <script src="js/common2019.js"></script>
+    <script type="text/javascript">
+        var videoPlay = function (el) {
+            var videoName = $(el).attr("data-video");
+            $('#videoCover_' + videoName).show();
+        }
+        // var videoPause = function (el) {
+        //     $(el).hide();
+        //     var video = $(el).find(".wemewVCR").get(0);
+        //     video.currentTime = 0;
+        //     video.pause();
+        // }
+        $(function(){
+            $(".closeBtn").bind("click",function(e){
+                if(e.currentTarget!= this){
+                    return;
+                }
+                var video = $(this).parent().parent().find(".wemewVCR").get(0);
+                video.currentTime = 0;
+                video.pause();
+                $(this).parent().parent().hide();
+            })
+        })
+    </script>
+    <!-- <script src="js/hover.js"></script> -->
+</head>
+<style>
+    .swiper-wrapper {
+        width: 100%;
+        height: 800px;
+    }
+
+    .swiper-slide {
+        width: 100%;
+        height: 800px;
+    }
+
+    .swiper-pagination {
+        bottom: 40px !important;
+    }
+
+    .banner .swiper-pagination-bullet {
+        width: 20px;
+        height: 4px;
+        background: rgba(255, 255, 255, 1);
+        opacity: 0.2;
+        border-radius: 2px
+    }
+
+    .banner .swiper-pagination-bullet-active {
+        width: 20px;
+        height: 4px;
+        background: rgba(255, 255, 255, 1);
+        opacity: 1;
+        border-radius: 2px
+    }
+
+    .customers {
+        width: 100%;
+        background: rgb(244, 244, 244);
+        padding-bottom: 152px;
+        padding-top: 80px;
+    }
+
+    .customers .customerList {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .customers .customerList .customerItem {
+        position: relative;
+        display: inline-block;
+        *zoom: 1;
+        *display: inline;
+        width: 294px;
+        height: 294px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        *margin-right:4px;
+        background: #fff;
+    }
+
+    .case {
+        background: rgb(244, 244, 244);
+        padding-top: 80px;
+    }
+
+    .case .lists {
+        margin-top: 20px;
+        width: 1200px;
+    }
+
+    .case .lists>div {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .case .lists>div .leftBar {
+        width: 50%;
+        float: left;
+    }
+
+    .case .lists>div .rightBar {
+        width: 50%;
+        float: left;
+    }
+
+    .case .lists>div>div .videoBox {
+        width: 100%;
+        height: 400px;
+        background: #333;
+    }
+
+    .case .lists>div>div .index {
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 220px;
+        font-style: italic;
+    }
+
+    .case .lists>div>div .name {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+
+    .case .lists>div>div .des {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 1;
+    }
+
+    .case .lists>div .leftBar p {
+        text-align: right;
+        padding-right: 100px;
+    }
+
+    .case .lists>div .rightBar p {
+        text-align: left;
+        padding-left: 100px;
+    }
+    .case .lists>div .rightBar p:nth-child(1){
+        margin-left: -36px;
+    }
+    .case .lists .videoBox {
+        position: relative;
+    }
+
+    .case .lists .videoBox::after {
+        content: "";
+        position: absolute;
+        background-color: #E5156A;
+        z-index: 0;
+        width: 210px;
+        height: 290px;
+    }
+
+    .case .lists .videoBox img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .case .lists .sec_1 .videoBox::after {
+        left: -88px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .case .lists .sec_2 .videoBox::after {
+        right: -46px;
+        bottom: -16px;
+    }
+
+    .case .lists .sec_3 .videoBox::after {
+        left: 46px;
+        bottom: -50px;
+    }
+
+    .case .lists .sec_4 .videoBox::after {
+        width: 169px;
+        height: 147px;
+        right: -46px;
+        bottom: -50px;
+    }
+
+    .case .lists .sec_5 .videoBox::after {
+        width: 169px;
+        height: 147px;
+        left: -33px;
+        bottom: 40px;
+    }
+</style>
+
+<body>
+    <div class="header f0">
+        <div class="inner">
+            <a href="/">
+                <div class="logoBar"></div>
+            </a>
+            <div class="headerList">
+                <span class="navHead"><a href="/">首页</a></span>
+                <span class="navHead"><a href="product.html">产品与服务</a></span>
+                <span class="navHead"><a href="javascript:void(0);" class="rede5">活动视频</a></span>
+                <span class="navHead"><a href="newsCenter.html">新闻动态</a></span>
+                <span class="navHead"><a href="helpCenter.html">帮助中心</a></span>
+                <span class="navHead"><a href="aboutUs.html">关于我们</a></span>
+            </div>
+            <span class="telPhone rede5">400-088-9828</span>
+            <a href="/adminLogin"><button class="loginBtn rede5">登录</button></a>
+            <a href="/register"><button class="loginBtn rede5">注册</button></a>
+        </div>
+    </div>
+    <div class="banner halfheight">
+        <img src="newpc/icons/banner_worker.png" alt="活动案例">
+    </div>
+    <div class="case">
+        <div class="inner">
+            <h2 class="tabTitle">
+                <span class="rede5 title inTitle">活动视频</span>
+                <span class="title_e">Wemew Video</span>
+            </h2>
+            <div class="lists">
+                <div class="sec_1">
+                    <div class="leftBar">
+                        <div class="videoBox video_Box" onclick="videoPlay(this)" data-video="1">
+                            <img src="newpc/icons/03.png" alt="活动案例">
+                        </div>
+                    </div>
+                    <div class="rightBar">
+                        <p class="index">“01</p>
+                        <p class="name">微喵品牌活动</p>
+                        <p class="des">大牌云集，联动全国</p>
+                    </div>
+                    <div class="clearB"></div>
+                </div>
+                <div class="sec_2">
+                    <div class="leftBar">
+                        <p class="index">“02</p>
+                        <p class="name">微喵×银石广场</p>
+                        <p class="des">真爱不沉默，七夕霸屏秀</p>
+                    </div>
+                    <div class="rightBar">
+                        <div class="videoBox video_Box" onclick="videoPlay(this)" data-video="2">
+                            <img src="newpc/icons/02.png" alt="活动案例">
+                        </div>
+                    </div>
+                    <div class="clearB"></div>
+                </div>
+                <!-- <div class="sec_3">
+                    <div class="leftBar">
+                        <div class="videoBox video_Box" onclick="videoPlay(this)" data-video="3">
+                            <img src="newpc/icons/01.png" alt="活动案例">
+                        </div>
+                    </div>
+                    <div class="rightBar">
+                        <p class="index">“03</p>
+                        <p class="name">微喵优秀案例</p>
+                        <p class="des">口播引爆霸屏</p>
+                    </div>
+                    <div class="clearB"></div>
+                </div> -->
+                <!-- <div class="sec_4">
+                    <div class="leftBar">
+                        <p class="index">“04</p>
+                        <p class="name">微喵优秀案例</p>
+                        <p class="des">全民夺宝</p>
+                    </div>
+                    <div class="rightBar">
+                        <div class="videoBox video_Box" onclick="videoPlay(this)" data-video="4">
+                            <img src="newpc/icons/04.png" alt="活动案例">
+                        </div>
+                    </div>
+                    <div class="clearB"></div>
+                </div>
+                <div class="sec_5">
+                    <div class="leftBar">
+                        <div class="videoBox video_Box" onclick="videoPlay(this)" data-video="5">
+                            <img src="newpc/icons/05.png" alt="活动案例">
+                        </div>
+                    </div>
+                    <div class="rightBar">
+                        <p class="index">“05</p>
+                        <p class="name">微喵优秀案例</p>
+                        <p class="des">赛马游戏</p>
+                    </div>
+                    <div class="clearB"></div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+   <div class="customers customers_1 f0">
+        <div class="inner">
+            <h2 class="tabTitle">
+                <span class="rede5 title inTitle">商务客户</span>
+                <span class="title_e">Business customers</span>
+            </h2>
+            <div class="customerList_1">
+                <div class="customerItem_1 c1">
+                    <div class="barlogo_1"></div>
+                </div>
+                <div class="customerItem_1 c2">
+                    <div class="barlogo_1"></div>
+                </div>
+                <div class="customerItem_1 c3">
+                    <div class="barlogo_1"></div>
+                </div>
+                <div class="customerItem_1 c4">
+                    <div class="barlogo_1"></div>
+                </div>
+                <div class="customerItem_1 c5">
+                    <div class="barlogo_1"></div>
+                </div>
+                <div class="customerItem_1 c6">
+                    <div class="barlogo_1"></div>
+                </div>
+                <div class="customerItem_1 c7">
+                    <div class="barlogo_1"></div>
+                </div>
+                <div class="customerItem_1 c8">
+                    <div class="barlogo_1"></div>
+                </div>
+                <div class="customerItem_1 c9">
+                    <div class="barlogo_1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="customers f0">
+        <div class="inner">
+            <h2 class="tabTitle">
+                <span class="rede5 title inTitle">合作客户</span>
+                <span class="title_e">Cooperative client</span>
+            </h2>
+            <div class="customerList">
+                <div class="customerItem">
+                    <div class="barlogo hutaoli"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo muse"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo ark"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo soho"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo fan"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo punk"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo hui"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo qing"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo tao"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo lang"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo mhouse"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo yeyan"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo queen"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo chamagudao"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo lianhua"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo manyan"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo helen"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo coco"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo dr"></div>
+                </div>
+                <div class="customerItem">
+                    <div class="barlogo chun"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer f0" style="margin-top:170px;">
+        <div class="inner">
+            <p class="footerDetail">
+                反馈邮箱：class@wemew.cn&nbsp;&nbsp;&nbsp;&nbsp;公司电话：400-088-9828&nbsp;&nbsp;&nbsp;&nbsp;举报投诉：400-088-9828 转 6
+            </p>
+            <p class="footerDetail">中国·四川·成都·天府大道中段·萃华路89号·节能大厦A座24楼&nbsp;&nbsp;成都腾木科技有限公司 </p>
+            <p class="footerDetail">©wemew 2013-2019蜀ICP备17016737号-1</p>
+        </div>
+        </div>
+    <div class="videoCover" id="videoCover">
+        <div class="videoContainer">
+        <video class="wemewVCR" id="wemewVCR" controls="controls"
+            src="https://wemew.oss-cn-qingdao.aliyuncs.com/help/wemew.mp4"></video>
+            <button class="closeBtn"></button>
+        </div>
+    </div>
+    <div id="videoCover_1" class="bigVideoBox">
+        <div class="videoContainer">
+                <video class="wemewVCR" id="wemewVCR_1" controls="controls" src="https://wemew.oss-cn-qingdao.aliyuncs.com/videos/pc/01.mp4"></video>
+                    <button class="closeBtn"></button>
+        </div>
+    </div>
+    <div id="videoCover_2" class="bigVideoBox" >
+        <div class="videoContainer">
+                <video class="wemewVCR" id="wemewVCR_2" controls="controls" src="https://wemew.oss-cn-qingdao.aliyuncs.com/videos/pc/02.mp4"></video>
+                    <button class="closeBtn"></button>
+        </div>
+    </div>
+    <div id="videoCover_3" class="bigVideoBox" >
+        <div class="videoContainer">
+                <video class="wemewVCR" id="wemewVCR_3" controls="controls" src="https://wemew.oss-cn-qingdao.aliyuncs.com/videos/pc/03.mp4"></video>
+                    <button class="closeBtn"></button>
+        </div>
+    </div>
+    <div id="videoCover_4" class="bigVideoBox" >
+        <div class="videoContainer">
+                <video class="wemewVCR" id="wemewVCR_4" controls="controls" src="https://wemew.oss-cn-qingdao.aliyuncs.com/videos/pc/04.mp4"></video>
+                    <button class="closeBtn"></button>
+        </div>
+    </div>
+    <div id="videoCover_5" class="bigVideoBox" >
+        <div class="videoContainer">
+                <video class="wemewVCR" id="wemewVCR_5" controls="controls" src="https://wemew.oss-cn-qingdao.aliyuncs.com/videos/pc/05.mp4"></video>
+                    <button class="closeBtn"></button>
+        </div>
+    </div>
+    <div class="toolsBar">
+        <div class="listItem" id="backTop" onclick="scrollTopTo()">
+            回到顶部
+        </div>
+        <div class="listItem">
+            客户端下载
+            <div class="hoverTip">
+                <div class="hoverContainer">
+                    <a href="https://www.wemew.com/wemew/app/wemew.rar" class="loadBtn windows">FOR WINDOWS</a>
+                    <a href="https://www.wemew.com/wemew/app/wemew_MACOS.zip" class="loadBtn mac">FOR MAC</a>
+                    <div class="triangle">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="listItem">
+            关注我们
+            <div class="hoverTip">
+                <div class="hoverContainer">
+                    <img src="newpc/icons/erweima_banner.png" alt="二维码">
+                    <div class="triangle">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="listItem">
+            在线咨询
+        </div>
+    </div>
+</body>
+<!-- <script>
+    var randomNum = function (minNum, maxNum, outNum) {
+        console.log(arguments.length)
+        switch (arguments.length) {
+            case 1:
+                return parseInt(Math.random() * minNum + 1, 10);
+                break;
+            case 2:
+                    return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
+                break;
+            case 3:
+            var r = parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
+                if (r == outNum) {
+                   return randomNum(minNum, maxNum)
+                } else {
+                    return r;
+                }
+                break;
+            default:
+                return 0;
+                break;
+        }
+    }
+    $(function () {
+        setTimeout(function(){
+        $(".customerItem").each(function (index) {
+            var r = randomNum(1,30,18);
+            $(this).xs999(r);
+        })
+        })
+    })
+</script> -->
+<script src="https://qiyukf.com/script/6a9a5bb87e864d9eacf8fd3c3871d2e4.js"></script>
+
+</html>
